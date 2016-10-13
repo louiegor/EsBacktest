@@ -2,6 +2,7 @@
 */bin/
 */obj/
 *.log
+.nuget
 packages
 _ReSharper.*/
 *.suo
