@@ -1,0 +1,2 @@
+<!--http://localhost:8080/GetLv1?symbol=9501.JP-->
+<Response><Content><Level1Data Message="L1DB" MarketTime="13:55:53.750" Symbol="9501.JP" BidPrice="448" AskPrice="449" BidSize="139000" AskSize="123200" Volume="58441200" LowPrice="408" HighPrice="500" OpenPrice="0" ClosePrice="0" MaxPermittedPrice="0" MinPermittedPrice="0" LotSize="100" LastPrice="446" InstrumentState="Open" AssetClass="Equity" TickValue="0" TickSize="1" Currency="JPY" Tick="?" /></Content></Response>

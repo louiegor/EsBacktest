@@ -1,0 +1,1150 @@
+ ____  ____             ___     ____ _ _            _   
+|  _ \|  _ \ _ __ ___  ( _ )   / ___| (_) ___ _ __ | |_ 
+| |_) | |_) | '__/ _ \ / _ \  | |   | | |/ _ \ '_ \| __|
+|  __/|  __/| | | (_) | (_) | | |___| | |  __/ | | | |_ 
+|_|   |_|   |_|  \___/ \___/   \____|_|_|\___|_| |_|\__|
+Logger Daemon startup 2014-12-17_23-45-51
+23:45:53.406	always	5816	IPMD	Connected to logger daemon at version 61019
+23:45:53.406	always	5816	IPMD	Component::ConnectToLoggerDaemon(): client branch version is Ruislip-1.3.1
+23:45:53.406	always	5816	IPMD	Component::ConnectToLoggerDaemon(): IPMD API version is Ruislip
+23:45:53.406	always	5816	IPMD	Daemon running branch Ruislip-1.3.1 at SVN version 61019
+23:45:55.366	warn	5816	IPMD	using obsolete utils::SafeLexicalCast - please use ToNumeric or ToString template functions instead - called from (0), converting from 'registeripmd'
+23:46:00.928	always	5504	CDSD_1	Connected to logger daemon at version 61019
+23:46:00.928	always	5504	CDSD_1	Component::ConnectToLoggerDaemon(): client branch version is Ruislip-1.3.1
+23:46:00.928	always	5504	CDSD_1	Component::ConnectToLoggerDaemon(): IPMD API version is Ruislip
+23:46:01.436	always	5504	CDSD_1	Daemon running branch Ruislip-1.3.1 at SVN version 61019
+23:45:53.349	always	2796	Watchdog	Connected to logger daemon at version 61019
+23:45:53.349	always	2796	Watchdog	Component::ConnectToLoggerDaemon(): client branch version is Ruislip-1.3.1
+23:45:53.349	always	2796	Watchdog	Component::ConnectToLoggerDaemon(): IPMD API version is Ruislip
+23:46:01.444	warn	3344	Watchdog	using obsolete utils::SafeLexicalCast - please use ToNumeric or ToString template functions instead - called from (0), converting from 'alive'
+23:46:01.444	warn	3344	Watchdog	using obsolete utils::SafeLexicalCast - please use ToNumeric or ToString template functions instead - called from (0), converting from '-1'
+23:46:01.481	warn	5504	CDSD_1	Level1Reservoir::CalculateUpDownTickAlgorithm() m_upDownTickAlgorithm value HACKED!
+23:46:01.435	always	5536	CDSD_2	Connected to logger daemon at version 61019
+23:46:01.435	always	5536	CDSD_2	Component::ConnectToLoggerDaemon(): client branch version is Ruislip-1.3.1
+23:46:01.435	always	5536	CDSD_2	Component::ConnectToLoggerDaemon(): IPMD API version is Ruislip
+23:46:01.944	always	5536	CDSD_2	Daemon running branch Ruislip-1.3.1 at SVN version 61019
+23:46:01.990	warn	5536	CDSD_2	Level1Reservoir::CalculateUpDownTickAlgorithm() m_upDownTickAlgorithm value HACKED!
+23:46:01.942	always	4576	CDSD_3	Connected to logger daemon at version 61019
+23:46:01.942	always	4576	CDSD_3	Component::ConnectToLoggerDaemon(): client branch version is Ruislip-1.3.1
+23:46:01.942	always	4576	CDSD_3	Component::ConnectToLoggerDaemon(): IPMD API version is Ruislip
+23:46:02.452	always	4576	CDSD_3	Daemon running branch Ruislip-1.3.1 at SVN version 61019
+23:46:02.492	warn	4576	CDSD_3	Level1Reservoir::CalculateUpDownTickAlgorithm() m_upDownTickAlgorithm value HACKED!
+23:46:03.469	always	4752	PProApi	Connected to logger daemon at version 61019
+23:46:03.469	always	4752	PProApi	Component::ConnectToLoggerDaemon(): client branch version is Ruislip-1.3.1
+23:46:03.469	always	4752	PProApi	Component::ConnectToLoggerDaemon(): IPMD API version is Ruislip
+23:46:03.979	always	4752	PProApi	Daemon running branch Ruislip-1.3.1 at SVN version 61019
+23:46:14.734	warn	2120	CDSD_2	using obsolete utils::SafeLexicalCast - please use ToNumeric or ToString template functions instead - called from (0), converting from 'login'
+23:46:14.734	warn	320	CDSD_3	using obsolete utils::SafeLexicalCast - please use ToNumeric or ToString template functions instead - called from (0), converting from 'login'
+23:46:14.735	warn	5316	CDSD_1	using obsolete utils::SafeLexicalCast - please use ToNumeric or ToString template functions instead - called from (0), converting from 'login'
+23:46:14.743	warn	5504	CDSD_1	using obsolete utils::SafeLexicalCast - please use ToNumeric or ToString template functions instead - called from (0), converting from '0'
+23:46:14.743	warn	5536	CDSD_2	using obsolete utils::SafeLexicalCast - please use ToNumeric or ToString template functions instead - called from (0), converting from '0'
+23:46:14.743	warn	4576	CDSD_3	using obsolete utils::SafeLexicalCast - please use ToNumeric or ToString template functions instead - called from (0), converting from '0'
+23:46:14.762	always	5504	CDSD_1	ConnectionServerClient::Connect() succeeded on 10.88.200.115:5011
+23:46:14.776	warn	5504	CDSD_1	ConnectionServerClient::Logon() - copying email address to traderName because ConnSrv cannot handle email address only
+23:46:14.790	always	5504	CDSD_1	ConnectionServerClient::Connect() succeeded on 10.88.200.115:5102
+23:46:14.835	always	5536	CDSD_2	ConnectionServerClient::Connect() succeeded on 10.68.200.37:5011
+23:46:14.923	warn	5536	CDSD_2	ConnectionServerClient::Logon() - copying email address to traderName because ConnSrv cannot handle email address only
+23:46:14.983	always	4576	CDSD_3	ConnectionServerClient::Connect() succeeded on 10.78.10.19:5011
+23:46:15.010	always	5536	CDSD_2	ConnectionServerClient::Connect() succeeded on 10.68.200.37:5102
+23:46:15.218	warn	4576	CDSD_3	ConnectionServerClient::Logon() - copying email address to traderName because ConnSrv cannot handle email address only
+23:46:15.453	always	4576	CDSD_3	ConnectionServerClient::Connect() succeeded on 10.78.10.19:5101
+23:46:15.515	always	5504	CDSD_1	Successful Login to ConnSrv for EmailAddress=ANDRECAR, Office=TNV, UserName=ANDRECAR, LocalDate=2014-12-17
+23:46:15.550	error	5504	CDSD_1	can't open file: C:\TMS/Blotter.exe
+23:46:15.611	error	5504	CDSD_1	can't open file: C:\TMS/ColumnCatalog.txt
+23:46:15.611	error	5504	CDSD_1	can't open file: C:\TMS/DestinationCatalog.txt
+23:46:15.612	error	5504	CDSD_1	can't open file: C:\TMS/EmergencyCancel.exe
+23:46:15.624	error	5504	CDSD_1	can't open file: C:\TMS/GatewayCatalog.txt
+23:46:15.716	always	5536	CDSD_2	Successful Login to ConnSrv for EmailAddress=ANDRECAR, Office=TNV, UserName=ANDRECAR, LocalDate=2014-12-17
+23:46:15.718	error	5504	CDSD_1	can't open file: C:\TMS/MarketCatalog.txt
+23:46:15.736	error	5504	CDSD_1	can't open file: C:\TMS/OrderCatalog.txt
+23:46:15.773	error	5504	CDSD_1	can't open file: C:\TMS/PPro8.exe
+23:46:15.824	error	5504	CDSD_1	can't open file: C:\TMS/RegionCatalog.txt
+23:46:15.896	always	5536	CDSD_2	--------------------------loginRsp information---------------------------
+23:46:15.897	always	5536	CDSD_2	LoginResponsePreQueen: LoginSucceeded=1, ResponseMessage=, UserId=ANDRECAR, OfficeId=TNV, SessionId=2, AllowToTrade=Y, TradingDate=2014-12-18 00:00:00, ServersBranchId=Q, UserDesignation=TDR
+--------------------------Office permissions information---------------------------
+Office count = 1
+office_0: m_OfficeId=TNV m_ClientId=404 m_OfficeName=TrueNorthVantageHO m_OfficeAddress=No Address m_OfficeSubnet=169675264 m_SubnetMask=24 m_OpcServerId=0
+CurrencyDetails CurrencyId=0 IsoCode=UNK CurrencyName=Unknown UsdExchangeRate=1e-008
+CurrencyDetails CurrencyId=1 IsoCode=USD CurrencyName=US dollar UsdExchangeRate=1
+CurrencyDetails CurrencyId=2 IsoCode=EUR CurrencyName=Euro UsdExchangeRate=1.24632
+CurrencyDetails CurrencyId=3 IsoCode=GBP CurrencyName=UK Pound sterling UsdExchangeRate=1.5724
+CurrencyDetails CurrencyId=4 IsoCode=GBX CurrencyName=UK Pence sterling UsdExchangeRate=0.015724
+CurrencyDetails CurrencyId=5 IsoCode=JPY CurrencyName=Japanese yen UsdExchangeRate=0.00846319
+CurrencyDetails CurrencyId=6 IsoCode=HKD CurrencyName=Hong Kong dollar UsdExchangeRate=0.128999
+CurrencyDetails CurrencyId=7 IsoCode=DKK CurrencyName=Danish krone UsdExchangeRate=0.167546
+CurrencyDetails CurrencyId=8 IsoCode=SEK CurrencyName=Swedish krona UsdExchangeRate=0.13262
+CurrencyDetails CurrencyId=9 IsoCode=NOK CurrencyName=Norvegian krone UsdExchangeRate=0.13585
+CurrencyDetails CurrencyId=10 IsoCode=CAD CurrencyName=Canadian dollar UsdExchangeRate=0.864669
+CurrencyDetails CurrencyId=11 IsoCode=SGD CurrencyName=Singapore Dollar UsdExchangeRate=0.762627
+CurrencyDetails CurrencyId=12 IsoCode=BRL CurrencyName=Brazilian Real UsdExchangeRate=0.376506
+CurrencyDetails CurrencyId=13 IsoCode=MXN CurrencyName=Mexican Pesos UsdExchangeRate=0.067757
+CurrencyDetails CurrencyId=14 IsoCode=RUB CurrencyName=Russian Ruble UsdExchangeRate=0.0171918
+CurrencyDetails CurrencyId=15 IsoCode=CHF CurrencyName=Switzerland Francs UsdExchangeRate=1.03755
+CurrencyDetails CurrencyId=16 IsoCode=AUD CurrencyName=Australian Dollar UsdExchangeRate=0.820824
+CurrencyDetails CurrencyId=17 IsoCode=NZD CurrencyName=New Zealand Dollar UsdExchangeRate=0.775944
+CurrencyDetails CurrencyId=18 IsoCode=KRW CurrencyName=South Korean won UsdExchangeRate=0.00090568
+CurrencyDetails CurrencyId=19 IsoCode=IDR CurrencyName=Indonesian Rupiah UsdExchangeRate=8.029e-005
+CurrencyDetails CurrencyId=20 IsoCode=THB CurrencyName=Thai Baht UsdExchangeRate=0.0304697
+CurrencyDetails CurrencyId=21 IsoCode=TRY CurrencyName=Turkish Lira  UsdExchangeRate=0.434086
+CurrencyDetails CurrencyId=22 IsoCode=ZAR CurrencyName=South Africa Rand UsdExchangeRate=0.0864459
+CurrencyDetails CurrencyId=23 IsoCode=MYR CurrencyName=Malaysian Ringgit UsdExchangeRate=0.285572
+CurrencyDetails CurrencyId=24 IsoCode=ZAC CurrencyName=South Africa Cent UsdExchangeRate=0.00101174
+CurrencyDetails CurrencyId=25 IsoCode=CNY CurrencyName=Chinese Yuan Renminbi UsdExchangeRate=0.161823
+--------------------------Button information---------------------------
+m_Buttons[0], m_ButtonName=LogOff, m_ButtonId=0, m_MaxNumberOfWindows=1
+m_Buttons[1], m_ButtonName=KeyboardSetup, m_ButtonId=1, m_MaxNumberOfWindows=1
+m_Buttons[2], m_ButtonName=StockWindow, m_ButtonId=2, m_MaxNumberOfWindows=100
+m_Buttons[3], m_ButtonName=TimeOfSale, m_ButtonId=3, m_MaxNumberOfWindows=100
+m_Buttons[4], m_ButtonName=HistoryLog, m_ButtonId=4, m_MaxNumberOfWindows=1
+m_Buttons[5], m_ButtonName=TraderInfo, m_ButtonId=5, m_MaxNumberOfWindows=1
+m_Buttons[6], m_ButtonName=ChartWindow, m_ButtonId=6, m_MaxNumberOfWindows=100
+m_Buttons[7], m_ButtonName=SymbolsListEditor, m_ButtonId=7, m_MaxNumberOfWindows=1
+m_Buttons[8], m_ButtonName=Summary, m_ButtonId=8, m_MaxNumberOfWindows=8
+m_Buttons[9], m_ButtonName=OrderStatus, m_ButtonId=9, m_MaxNumberOfWindows=1
+m_Buttons[10], m_ButtonName=EmergencyCancel, m_ButtonId=10, m_MaxNumberOfWindows=0
+m_Buttons[11], m_ButtonName=OrderList, m_ButtonId=11, m_MaxNumberOfWindows=1
+m_Buttons[12], m_ButtonName=Flattening, m_ButtonId=12, m_MaxNumberOfWindows=0
+m_Buttons[13], m_ButtonName=ImbalanceLocator, m_ButtonId=13, m_MaxNumberOfWindows=8
+m_Buttons[14], m_ButtonName=LiquidityScanner, m_ButtonId=14, m_MaxNumberOfWindows=0
+m_Buttons[15], m_ButtonName=QuoteBoard, m_ButtonId=15, m_MaxNumberOfWindows=10
+m_Buttons[16], m_ButtonName=Ticker, m_ButtonId=16, m_MaxNumberOfWindows=8
+m_Buttons[17], m_ButtonName=Blotter, m_ButtonId=19, m_MaxNumberOfWindows=0
+m_Buttons[18], m_ButtonName=PProApi, m_ButtonId=20, m_MaxNumberOfWindows=1
+m_Buttons[19], m_ButtonName=BasketOrder, m_ButtonId=22, m_MaxNumberOfWindows=1
+AssetClass=1 Currency=1 Account=3BARKA011183FANDRECARUSD1
+AssetClass=1 Currency=2 Account=2BARKA011183FANDRECAREUR1
+AssetClass=1 Currency=3 Account=2BARKA011183FANDRECARGBP1
+AssetClass=1 Currency=4 Account=2BARKA011183FANDRECARGBX1
+AssetClass=1 Currency=5 Account=3TRUENV001TNVANDRECARJPY1
+AssetClass=1 Currency=6 Account=3BARKA011183FANDRECARHKD1
+AssetClass=1 Currency=7 Account=2BARKA011183FANDRECARDKK1
+AssetClass=1 Currency=8 Account=2BARKA011183FANDRECARSEK1
+AssetClass=1 Currency=9 Account=2BARKA011183FANDRECARNOK1
+AssetClass=1 Currency=10 Account=1BARKA011183FANDRECARCAD1
+AssetClass=1 Currency=11 Account=3BARKA011183FANDRECARSGD1
+AssetClass=1 Currency=16 Account=4BARKA011183FANDRECARAUD1
+AssetClass=2 Currency=1 Account=3BARKA011183FANDRECARUSD2
+AssetClass=2 Currency=2 Account=2BARKA011183FANDRECAREUR2
+AssetClass=2 Currency=3 Account=2BARKA011183FANDRECARGBP2
+AssetClass=2 Currency=4 Account=2BARKA011183FANDRECARGBX2
+AssetClass=2 Currency=5 Account=3BARKA011183FANDRECARJPY2
+AssetClass=2 Currency=6 Account=3BARKA011183FANDRECARHKD2
+AssetClass=2 Currency=10 Account=1BARKA011183FANDRECARCAD2
+m_TradingDates[0], m_RegionId=0, m_TradingDate=
+m_TradingDates[1], m_RegionId=1, m_TradingDate=
+m_TradingDates[2], m_RegionId=2, m_TradingDate=
+m_TradingDates[3], m_RegionId=3, m_TradingDate=
+m_TradingDates[4], m_RegionId=4, m_TradingDate=
+
+23:46:15.898	always	5536	CDSD_2	
+--------------------------Entitlement information---------------------------
+23:46:15.898	always	5536	CDSD_2	EntitlementInfo count = 0
+23:46:15.898	always	5536	CDSD_2	EntitlementResponsePreQueen::Dump() writes directly to the log file now. use -loglevel=INFO to
+23:46:15.898	warn	5536	CDSD_2	DataAccess::LoadCreateDefaultXml - Avoid wrong call to SetComponent. Assigning members explicitily
+23:46:15.944	error	5504	CDSD_1	can't open file: C:\TMS/Watchdog.exe
+23:46:15.953	warn	2756	PProApi	using obsolete utils::SafeLexicalCast - please use ToNumeric or ToString template functions instead - called from (0), converting from 'status'
+23:46:15.966	always	5504	CDSD_1	--------------------------loginRsp information---------------------------
+23:46:15.967	always	5504	CDSD_1	LoginResponsePreQueen: LoginSucceeded=1, ResponseMessage=, UserId=ANDRECAR, OfficeId=TNV, SessionId=2, AllowToTrade=Y, TradingDate=2014-12-18 00:00:00, ServersBranchId=Q, UserDesignation=TDR
+--------------------------Office permissions information---------------------------
+Office count = 1
+office_0: m_OfficeId=TNV m_ClientId=404 m_OfficeName=TrueNorthVantageHO m_OfficeAddress=No Address m_OfficeSubnet=169675264 m_SubnetMask=24 m_OpcServerId=0
+CurrencyDetails CurrencyId=0 IsoCode=UNK CurrencyName=Unknown UsdExchangeRate=1e-008
+CurrencyDetails CurrencyId=1 IsoCode=USD CurrencyName=US dollar UsdExchangeRate=1
+CurrencyDetails CurrencyId=2 IsoCode=EUR CurrencyName=Euro UsdExchangeRate=1.24632
+CurrencyDetails CurrencyId=3 IsoCode=GBP CurrencyName=UK Pound sterling UsdExchangeRate=1.5724
+CurrencyDetails CurrencyId=4 IsoCode=GBX CurrencyName=UK Pence sterling UsdExchangeRate=0.015724
+CurrencyDetails CurrencyId=5 IsoCode=JPY CurrencyName=Japanese yen UsdExchangeRate=0.00846319
+CurrencyDetails CurrencyId=6 IsoCode=HKD CurrencyName=Hong Kong dollar UsdExchangeRate=0.128999
+CurrencyDetails CurrencyId=7 IsoCode=DKK CurrencyName=Danish krone UsdExchangeRate=0.167546
+CurrencyDetails CurrencyId=8 IsoCode=SEK CurrencyName=Swedish krona UsdExchangeRate=0.13262
+CurrencyDetails CurrencyId=9 IsoCode=NOK CurrencyName=Norvegian krone UsdExchangeRate=0.13585
+CurrencyDetails CurrencyId=10 IsoCode=CAD CurrencyName=Canadian dollar UsdExchangeRate=0.864669
+CurrencyDetails CurrencyId=11 IsoCode=SGD CurrencyName=Singapore Dollar UsdExchangeRate=0.762627
+CurrencyDetails CurrencyId=12 IsoCode=BRL CurrencyName=Brazilian Real UsdExchangeRate=0.376506
+CurrencyDetails CurrencyId=13 IsoCode=MXN CurrencyName=Mexican Pesos UsdExchangeRate=0.067757
+CurrencyDetails CurrencyId=14 IsoCode=RUB CurrencyName=Russian Ruble UsdExchangeRate=0.0171918
+CurrencyDetails CurrencyId=15 IsoCode=CHF CurrencyName=Switzerland Francs UsdExchangeRate=1.03755
+CurrencyDetails CurrencyId=16 IsoCode=AUD CurrencyName=Australian Dollar UsdExchangeRate=0.820824
+CurrencyDetails CurrencyId=17 IsoCode=NZD CurrencyName=New Zealand Dollar UsdExchangeRate=0.775944
+CurrencyDetails CurrencyId=18 IsoCode=KRW CurrencyName=South Korean won UsdExchangeRate=0.00090568
+CurrencyDetails CurrencyId=19 IsoCode=IDR CurrencyName=Indonesian Rupiah UsdExchangeRate=8.029e-005
+CurrencyDetails CurrencyId=20 IsoCode=THB CurrencyName=Thai Baht UsdExchangeRate=0.0304697
+CurrencyDetails CurrencyId=21 IsoCode=TRY CurrencyName=Turkish Lira  UsdExchangeRate=0.434086
+CurrencyDetails CurrencyId=22 IsoCode=ZAR CurrencyName=South Africa Rand UsdExchangeRate=0.0864459
+CurrencyDetails CurrencyId=23 IsoCode=MYR CurrencyName=Malaysian Ringgit UsdExchangeRate=0.285572
+CurrencyDetails CurrencyId=24 IsoCode=ZAC CurrencyName=South Africa Cent UsdExchangeRate=0.00101174
+CurrencyDetails CurrencyId=25 IsoCode=CNY CurrencyName=Chinese Yuan Renminbi UsdExchangeRate=0.161823
+--------------------------Button information---------------------------
+m_Buttons[0], m_ButtonName=LogOff, m_ButtonId=0, m_MaxNumberOfWindows=1
+m_Buttons[1], m_ButtonName=KeyboardSetup, m_ButtonId=1, m_MaxNumberOfWindows=1
+m_Buttons[2], m_ButtonName=StockWindow, m_ButtonId=2, m_MaxNumberOfWindows=100
+m_Buttons[3], m_ButtonName=TimeOfSale, m_ButtonId=3, m_MaxNumberOfWindows=100
+m_Buttons[4], m_ButtonName=HistoryLog, m_ButtonId=4, m_MaxNumberOfWindows=1
+m_Buttons[5], m_ButtonName=TraderInfo, m_ButtonId=5, m_MaxNumberOfWindows=1
+m_Buttons[6], m_ButtonName=ChartWindow, m_ButtonId=6, m_MaxNumberOfWindows=100
+m_Buttons[7], m_ButtonName=SymbolsListEditor, m_ButtonId=7, m_MaxNumberOfWindows=1
+m_Buttons[8], m_ButtonName=Summary, m_ButtonId=8, m_MaxNumberOfWindows=8
+m_Buttons[9], m_ButtonName=OrderStatus, m_ButtonId=9, m_MaxNumberOfWindows=1
+m_Buttons[10], m_ButtonName=EmergencyCancel, m_ButtonId=10, m_MaxNumberOfWindows=0
+m_Buttons[11], m_ButtonName=OrderList, m_ButtonId=11, m_MaxNumberOfWindows=1
+m_Buttons[12], m_ButtonName=Flattening, m_ButtonId=12, m_MaxNumberOfWindows=0
+m_Buttons[13], m_ButtonName=ImbalanceLocator, m_ButtonId=13, m_MaxNumberOfWindows=8
+m_Buttons[14], m_ButtonName=LiquidityScanner, m_ButtonId=14, m_MaxNumberOfWindows=0
+m_Buttons[15], m_ButtonName=QuoteBoard, m_ButtonId=15, m_MaxNumberOfWindows=10
+m_Buttons[16], m_ButtonName=Ticker, m_ButtonId=16, m_MaxNumberOfWindows=8
+m_Buttons[17], m_ButtonName=Blotter, m_ButtonId=19, m_MaxNumberOfWindows=0
+m_Buttons[18], m_ButtonName=PProApi, m_ButtonId=20, m_MaxNumberOfWindows=1
+m_Buttons[19], m_ButtonName=BasketOrder, m_ButtonId=22, m_MaxNumberOfWindows=1
+AssetClass=1 Currency=1 Account=3BARKA011183FANDRECARUSD1
+AssetClass=1 Currency=2 Account=2BARKA011183FANDRECAREUR1
+AssetClass=1 Currency=3 Account=2BARKA011183FANDRECARGBP1
+AssetClass=1 Currency=4 Account=2BARKA011183FANDRECARGBX1
+AssetClass=1 Currency=5 Account=3TRUENV001TNVANDRECARJPY1
+AssetClass=1 Currency=6 Account=3BARKA011183FANDRECARHKD1
+AssetClass=1 Currency=7 Account=2BARKA011183FANDRECARDKK1
+AssetClass=1 Currency=8 Account=2BARKA011183FANDRECARSEK1
+AssetClass=1 Currency=9 Account=2BARKA011183FANDRECARNOK1
+AssetClass=1 Currency=10 Account=1BARKA011183FANDRECARCAD1
+AssetClass=1 Currency=11 Account=3BARKA011183FANDRECARSGD1
+AssetClass=1 Currency=16 Account=4BARKA011183FANDRECARAUD1
+AssetClass=2 Currency=1 Account=3BARKA011183FANDRECARUSD2
+AssetClass=2 Currency=2 Account=2BARKA011183FANDRECAREUR2
+AssetClass=2 Currency=3 Account=2BARKA011183FANDRECARGBP2
+AssetClass=2 Currency=4 Account=2BARKA011183FANDRECARGBX2
+AssetClass=2 Currency=5 Account=3BARKA011183FANDRECARJPY2
+AssetClass=2 Currency=6 Account=3BARKA011183FANDRECARHKD2
+AssetClass=2 Currency=10 Account=1BARKA011183FANDRECARCAD2
+m_TradingDates[0], m_RegionId=0, m_TradingDate=
+m_TradingDates[1], m_RegionId=1, m_TradingDate=
+m_TradingDates[2], m_RegionId=2, m_TradingDate=
+m_TradingDates[3], m_RegionId=3, m_TradingDate=
+m_TradingDates[4], m_RegionId=4, m_TradingDate=
+
+23:46:15.967	always	5504	CDSD_1	
+--------------------------Entitlement information---------------------------
+23:46:15.967	always	5504	CDSD_1	EntitlementInfo count = 0
+23:46:15.967	always	5504	CDSD_1	EntitlementResponsePreQueen::Dump() writes directly to the log file now. use -loglevel=INFO to
+23:46:15.967	warn	5504	CDSD_1	DataAccess::LoadCreateDefaultXml - Avoid wrong call to SetComponent. Assigning members explicitily
+23:46:16.004	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=2 and sourceId=13
+23:46:16.004	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=3 and sourceId=13
+23:46:16.004	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=17 and sourceId=13
+23:46:16.004	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=18 and sourceId=14
+23:46:16.004	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=19 and sourceId=14
+23:46:16.004	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=20 and sourceId=14
+23:46:16.004	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=4 and sourceId=14
+23:46:16.004	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=5 and sourceId=14
+23:46:16.004	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=6 and sourceId=14
+23:46:16.005	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=7 and sourceId=14
+23:46:16.005	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=8 and sourceId=14
+23:46:16.005	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=9 and sourceId=14
+23:46:16.005	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=10 and sourceId=14
+23:46:16.005	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=11 and sourceId=14
+23:46:16.005	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=12 and sourceId=14
+23:46:16.005	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=14 and sourceId=14
+23:46:16.005	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=15 and sourceId=14
+23:46:16.005	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=16 and sourceId=14
+23:46:16.005	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=22 and sourceId=14
+23:46:16.005	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=23 and sourceId=14
+23:46:16.005	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=24 and sourceId=14
+23:46:16.005	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=4 and sourceId=16
+23:46:16.005	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=22 and sourceId=16
+23:46:16.006	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=23 and sourceId=16
+23:46:16.006	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=24 and sourceId=16
+23:46:16.006	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=2 and sourceId=17
+23:46:16.006	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=3 and sourceId=17
+23:46:16.006	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=4 and sourceId=17
+23:46:16.006	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=5 and sourceId=17
+23:46:16.006	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=6 and sourceId=17
+23:46:16.006	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=7 and sourceId=17
+23:46:16.006	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=8 and sourceId=17
+23:46:16.006	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=9 and sourceId=17
+23:46:16.006	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=10 and sourceId=17
+23:46:16.006	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=11 and sourceId=17
+23:46:16.006	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=22 and sourceId=17
+23:46:16.006	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=23 and sourceId=17
+23:46:16.007	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=24 and sourceId=17
+23:46:16.007	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=12 and sourceId=17
+23:46:16.007	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=14 and sourceId=17
+23:46:16.007	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=15 and sourceId=17
+23:46:16.007	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=16 and sourceId=17
+23:46:16.007	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=17 and sourceId=17
+23:46:16.007	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=2 and sourceId=18
+23:46:16.007	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=3 and sourceId=18
+23:46:16.007	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=17 and sourceId=18
+23:46:16.007	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=2 and sourceId=20
+23:46:16.007	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=3 and sourceId=21
+23:46:16.007	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=2 and sourceId=21
+23:46:16.007	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=17 and sourceId=21
+23:46:16.007	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=6 and sourceId=22
+23:46:16.008	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=7 and sourceId=23
+23:46:16.008	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=8 and sourceId=24
+23:46:16.008	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=9 and sourceId=24
+23:46:16.008	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=10 and sourceId=24
+23:46:16.008	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=11 and sourceId=24
+23:46:16.008	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=18 and sourceId=25
+23:46:16.008	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=19 and sourceId=25
+23:46:16.008	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=20 and sourceId=25
+23:46:16.008	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=4 and sourceId=25
+23:46:16.008	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=5 and sourceId=25
+23:46:16.008	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=6 and sourceId=25
+23:46:16.008	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=7 and sourceId=25
+23:46:16.009	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=8 and sourceId=25
+23:46:16.009	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=9 and sourceId=25
+23:46:16.009	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=10 and sourceId=25
+23:46:16.009	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=11 and sourceId=25
+23:46:16.009	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=12 and sourceId=25
+23:46:16.009	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=14 and sourceId=25
+23:46:16.009	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=15 and sourceId=25
+23:46:16.009	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=16 and sourceId=25
+23:46:16.009	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=22 and sourceId=25
+23:46:16.009	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=23 and sourceId=25
+23:46:16.009	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=24 and sourceId=25
+23:46:16.010	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=2 and sourceId=32
+23:46:16.010	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=2 and sourceId=37
+23:46:16.010	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=3 and sourceId=37
+23:46:16.010	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=29 and sourceId=39
+23:46:16.010	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=29 and sourceId=39
+23:46:16.010	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=2 and sourceId=54
+23:46:16.010	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=3 and sourceId=54
+23:46:16.010	warn	5504	CDSD_1	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=5 and sourceId=7
+23:46:16.014	warn	5316	CDSD_1	ClientConnection::SendMessage message exceeds IPMD, truncating to 4096 Stripped data = 'has more than one vendor. ^MarketSource pair 2/37#CM# has more than one vendor. ^MarketSource pair 3/37#CM# has more than one vendor. ^MarketSource pair 29/39#CM# has more than one vendor. ^MarketSource pair 29/39#CM# has more than one vendor. ^MarketSource pair 2/54#CM# has more than one vendor. ^MarketSource pair 3/54#CM# has more than one vendor. ^MarketSource pair 5/7#CM# has more than one vendor. ,99=Watchdog,302=error'
+23:46:16.017	warn	5504	CDSD_1	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.018	warn	5504	CDSD_1	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.019	warn	5504	CDSD_1	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.020	warn	5504	CDSD_1	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.020	always	4576	CDSD_3	Successful Login to ConnSrv for EmailAddress=ANDRECAR, Office=TNV, UserName=ANDRECAR, LocalDate=2014-12-17
+23:46:16.021	warn	5504	CDSD_1	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.022	warn	5504	CDSD_1	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.023	warn	5504	CDSD_1	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.024	warn	5504	CDSD_1	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.026	warn	5504	CDSD_1	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.027	warn	5504	CDSD_1	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.028	warn	5504	CDSD_1	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.029	warn	5504	CDSD_1	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.030	warn	5504	CDSD_1	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.030	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of LogOff.exe, as can't kill processId=0
+23:46:16.031	warn	5504	CDSD_1	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.032	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of KeyboardSetup.exe, as can't kill processId=0
+23:46:16.033	warn	5504	CDSD_1	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.033	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of StockWindow.exe, as can't kill processId=0
+23:46:16.034	warn	5504	CDSD_1	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.034	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of TimeOfSale.exe, as can't kill processId=0
+23:46:16.035	warn	5504	CDSD_1	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.036	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of HistoryLog.exe, as can't kill processId=0
+23:46:16.037	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of TraderInfo.exe, as can't kill processId=0
+23:46:16.043	warn	2756	PProApi	using obsolete utils::SafeLexicalCast - please use ToNumeric or ToString template functions instead - called from (0), converting from '5'
+23:46:16.044	error	2756	PProApi	PProApiAction::CreateHandler request to add nonexistent handler
+23:46:16.049	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of ChartWindow.exe, as can't kill processId=0
+23:46:16.051	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of SymbolsListEditor.exe, as can't kill processId=0
+23:46:16.052	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of Summary.exe, as can't kill processId=0
+23:46:16.054	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of OrderStatus.exe, as can't kill processId=0
+23:46:16.055	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of OrderList.exe, as can't kill processId=0
+23:46:16.057	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of ImbalanceLocator.exe, as can't kill processId=0
+23:46:16.058	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of QuoteBoard.exe, as can't kill processId=0
+23:46:16.059	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of Ticker.exe, as can't kill processId=0
+23:46:16.060	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of BasketOrder.exe, as can't kill processId=0
+23:46:16.062	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of LockUnlock.exe, as can't kill processId=0
+23:46:16.063	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of SaveLayout.exe, as can't kill processId=0
+23:46:16.080	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=2 and sourceId=13
+23:46:16.080	warn	5504	CDSD_1	todo use reliability type weak
+23:46:16.081	warn	5504	CDSD_1	todo use reliability type ostat
+23:46:16.080	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=3 and sourceId=13
+23:46:16.080	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=17 and sourceId=13
+23:46:16.080	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=18 and sourceId=14
+23:46:16.080	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=19 and sourceId=14
+23:46:16.081	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=20 and sourceId=14
+23:46:16.081	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=4 and sourceId=14
+23:46:16.081	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=5 and sourceId=14
+23:46:16.081	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=6 and sourceId=14
+23:46:16.081	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=7 and sourceId=14
+23:46:16.081	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=8 and sourceId=14
+23:46:16.081	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=9 and sourceId=14
+23:46:16.081	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=10 and sourceId=14
+23:46:16.081	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=11 and sourceId=14
+23:46:16.081	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=12 and sourceId=14
+23:46:16.081	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=14 and sourceId=14
+23:46:16.081	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=15 and sourceId=14
+23:46:16.082	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=16 and sourceId=14
+23:46:16.082	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=22 and sourceId=14
+23:46:16.082	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=23 and sourceId=14
+23:46:16.082	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=24 and sourceId=14
+23:46:16.082	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=4 and sourceId=16
+23:46:16.082	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=22 and sourceId=16
+23:46:16.082	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=23 and sourceId=16
+23:46:16.082	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=24 and sourceId=16
+23:46:16.082	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=2 and sourceId=17
+23:46:16.082	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=3 and sourceId=17
+23:46:16.082	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=4 and sourceId=17
+23:46:16.082	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=5 and sourceId=17
+23:46:16.082	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=6 and sourceId=17
+23:46:16.083	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=7 and sourceId=17
+23:46:16.083	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=8 and sourceId=17
+23:46:16.083	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=9 and sourceId=17
+23:46:16.083	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=10 and sourceId=17
+23:46:16.083	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=11 and sourceId=17
+23:46:16.083	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=22 and sourceId=17
+23:46:16.083	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=23 and sourceId=17
+23:46:16.083	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=24 and sourceId=17
+23:46:16.083	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=12 and sourceId=17
+23:46:16.083	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=14 and sourceId=17
+23:46:16.083	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=15 and sourceId=17
+23:46:16.083	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=16 and sourceId=17
+23:46:16.083	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=17 and sourceId=17
+23:46:16.084	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=2 and sourceId=18
+23:46:16.084	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=3 and sourceId=18
+23:46:16.084	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=17 and sourceId=18
+23:46:16.084	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=2 and sourceId=20
+23:46:16.084	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=3 and sourceId=21
+23:46:16.084	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=2 and sourceId=21
+23:46:16.084	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=17 and sourceId=21
+23:46:16.084	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=6 and sourceId=22
+23:46:16.084	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=7 and sourceId=23
+23:46:16.084	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=8 and sourceId=24
+23:46:16.084	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=9 and sourceId=24
+23:46:16.084	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=10 and sourceId=24
+23:46:16.084	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=11 and sourceId=24
+23:46:16.085	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=18 and sourceId=25
+23:46:16.085	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=19 and sourceId=25
+23:46:16.085	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=20 and sourceId=25
+23:46:16.085	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=4 and sourceId=25
+23:46:16.085	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=5 and sourceId=25
+23:46:16.085	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=6 and sourceId=25
+23:46:16.085	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=7 and sourceId=25
+23:46:16.085	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=8 and sourceId=25
+23:46:16.085	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=9 and sourceId=25
+23:46:16.085	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=10 and sourceId=25
+23:46:16.085	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=11 and sourceId=25
+23:46:16.085	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=12 and sourceId=25
+23:46:16.085	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=14 and sourceId=25
+23:46:16.086	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=15 and sourceId=25
+23:46:16.086	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=16 and sourceId=25
+23:46:16.086	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=22 and sourceId=25
+23:46:16.086	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=23 and sourceId=25
+23:46:16.086	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=24 and sourceId=25
+23:46:16.086	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=2 and sourceId=32
+23:46:16.086	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=2 and sourceId=37
+23:46:16.086	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=3 and sourceId=37
+23:46:16.086	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=29 and sourceId=39
+23:46:16.086	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=29 and sourceId=39
+23:46:16.087	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=2 and sourceId=54
+23:46:16.087	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=3 and sourceId=54
+23:46:16.087	warn	5536	CDSD_2	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=5 and sourceId=7
+23:46:16.093	warn	5536	CDSD_2	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.093	warn	2120	CDSD_2	ClientConnection::SendMessage message exceeds IPMD, truncating to 4096 Stripped data = 'has more than one vendor. ^MarketSource pair 2/37#CM# has more than one vendor. ^MarketSource pair 3/37#CM# has more than one vendor. ^MarketSource pair 29/39#CM# has more than one vendor. ^MarketSource pair 29/39#CM# has more than one vendor. ^MarketSource pair 2/54#CM# has more than one vendor. ^MarketSource pair 3/54#CM# has more than one vendor. ^MarketSource pair 5/7#CM# has more than one vendor. ,99=Watchdog,302=error'
+23:46:16.094	warn	5536	CDSD_2	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.095	warn	5536	CDSD_2	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.096	warn	5536	CDSD_2	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.096	warn	5504	CDSD_1	OpcClient::GetValidOpc Cannot validate OPC. Region=1, Trader=ANDRECAR
+23:46:16.096	error	5504	CDSD_1	DataCentre::GetBlotterSnapshot() - Can't GetValidOpc from OpcClient for traderAsset=ANDRECAR Future, sessionId=2, region=NCSA
+23:46:16.097	warn	5536	CDSD_2	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.098	warn	5536	CDSD_2	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.099	warn	5536	CDSD_2	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.100	warn	5536	CDSD_2	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.102	warn	5536	CDSD_2	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.109	warn	5536	CDSD_2	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.105	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of LogOff.exe, as can't kill processId=0
+23:46:16.107	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of KeyboardSetup.exe, as can't kill processId=0
+23:46:16.108	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of StockWindow.exe, as can't kill processId=0
+23:46:16.111	warn	5536	CDSD_2	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.111	warn	5504	CDSD_1	OpcClient::GetValidOpc Cannot validate OPC. Region=1, Trader=ANDRECAR
+23:46:16.111	error	5504	CDSD_1	DataCentre::GetBlotterSnapshot() - Can't GetValidOpc from OpcClient for traderAsset=ANDRECAR Equity, sessionId=2, region=NCSA
+23:46:16.112	warn	5536	CDSD_2	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.113	warn	5536	CDSD_2	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.114	warn	5536	CDSD_2	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.116	warn	5536	CDSD_2	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.117	warn	5536	CDSD_2	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.131	warn	5536	CDSD_2	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.120	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of TimeOfSale.exe, as can't kill processId=0
+23:46:16.121	warn	2796	Watchdog	using obsolete utils::SafeLexicalCast - please use ToNumeric or ToString template functions instead - called from (0), converting from '0'
+23:46:16.122	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of HistoryLog.exe, as can't kill processId=0
+23:46:16.123	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of TraderInfo.exe, as can't kill processId=0
+23:46:16.125	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of ChartWindow.exe, as can't kill processId=0
+23:46:16.126	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of SymbolsListEditor.exe, as can't kill processId=0
+23:46:16.128	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of Summary.exe, as can't kill processId=0
+23:46:16.129	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of OrderStatus.exe, as can't kill processId=0
+23:46:16.130	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of OrderList.exe, as can't kill processId=0
+23:46:16.143	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of ImbalanceLocator.exe, as can't kill processId=0
+23:46:16.144	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of QuoteBoard.exe, as can't kill processId=0
+23:46:16.146	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of Ticker.exe, as can't kill processId=0
+23:46:16.147	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of BasketOrder.exe, as can't kill processId=0
+23:46:16.148	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of LockUnlock.exe, as can't kill processId=0
+23:46:16.150	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of SaveLayout.exe, as can't kill processId=0
+23:46:16.150	warn	2756	PProApi	PProApiAction::CreateHandler request to add already created handler for ID 2
+23:46:16.150	warn	2756	PProApi	PProApiAction::CreateHandler request to add already created handler for ID 3
+23:46:16.150	warn	2756	PProApi	PProApiAction::CreateHandler request to add already created handler for ID 4
+23:46:16.150	warn	2756	PProApi	PProApiAction::CreateHandler request to add already created handler for ID 6
+23:46:16.150	warn	2756	PProApi	PProApiAction::CreateHandler request to add already created handler for ID 19
+23:46:16.150	warn	2756	PProApi	PProApiAction::CreateHandler request to add already created handler for ID 9
+23:46:16.150	warn	2756	PProApi	PProApiAction::CreateHandler request to add already created handler for ID 10
+23:46:16.150	warn	2756	PProApi	PProApiAction::CreateHandler request to add already created handler for ID 13
+23:46:16.150	warn	2756	PProApi	PProApiAction::CreateHandler request to add already created handler for ID 14
+23:46:16.150	warn	2756	PProApi	PProApiAction::CreateHandler request to add already created handler for ID 11
+23:46:16.151	warn	2756	PProApi	PProApiAction::CreateHandler request to add already created handler for ID 7
+23:46:16.151	error	2756	PProApi	PProApiAction::CreateHandler request to add nonexistent handler
+23:46:16.151	warn	2756	PProApi	PProApiAction::CreateHandler request to add already created handler for ID 12
+23:46:16.151	warn	2756	PProApi	PProApiAction::CreateHandler request to add already created handler for ID 17
+23:46:16.151	warn	2756	PProApi	PProApiAction::CreateHandler request to add already created handler for ID 18
+23:46:16.151	warn	5504	CDSD_1	ColumnInstanceSet::SetTableReservoir(): Destination/Gateway/Side columns are not in catalog. ColumnCatalog needs extending
+23:46:16.151	error	5504	CDSD_1	TableReservoir::GetRegionalRosm() const: failed to find regionId=0
+23:46:16.151	error	5504	CDSD_1	TableReservoir::GetMap() - invalid call, mode=0, shMemPopulated=0
+23:46:16.151	warn	5504	CDSD_1	ColumnInstanceSet::GetColumnInstance(): cannot find column in m_columnInstances 'TIF' trying column name without underscores
+23:46:16.151	error	5504	CDSD_1	ColumnInstanceSet::GetColumnInstance(): cannot find column with or without '_', so returning garbage
+23:46:16.151	warn	5504	CDSD_1	ColumnInstanceSet::GetColumnInstance(): cannot find column in m_columnInstances 'Stop Price' trying column name without underscores
+23:46:16.151	error	5504	CDSD_1	ColumnInstanceSet::GetColumnInstance(): cannot find column with or without '_', so returning garbage
+23:46:16.151	warn	5504	CDSD_1	ColumnInstanceSet::GetColumnInstance(): cannot find column in m_columnInstances 'Order Type' trying column name without underscores
+23:46:16.151	error	5504	CDSD_1	ColumnInstanceSet::GetColumnInstance(): cannot find column with or without '_', so returning garbage
+23:46:16.151	warn	5504	CDSD_1	ColumnInstanceSet::GetColumnInstance(): cannot find column in m_columnInstances 'Reference Side' trying column name without underscores
+23:46:16.151	error	5504	CDSD_1	ColumnInstanceSet::GetColumnInstance(): cannot find column with or without '_', so returning garbage
+23:46:16.156	error	5816	IPMD	IpmDaemon::SendMessage Couldn't find a target component
+23:46:16.158	error	5816	IPMD	IpmDaemon::SendMessage Couldn't find a target component
+23:46:16.230	warn	2756	PProApi	ColumnInstanceSet::SetTableReservoir(): Destination/Gateway/Side columns are not in catalog. ColumnCatalog needs extending
+23:46:16.322	warn	5536	CDSD_2	todo use reliability type weak
+23:46:16.323	warn	5536	CDSD_2	todo use reliability type ostat
+23:46:16.412	warn	5536	CDSD_2	OpcClient::GetValidOpc Cannot validate OPC. Region=2, Trader=ANDRECAR
+23:46:16.412	error	5536	CDSD_2	DataCentre::GetBlotterSnapshot() - Can't GetValidOpc from OpcClient for traderAsset=ANDRECAR Equity, sessionId=2, region=EMEA
+23:46:16.496	always	4576	CDSD_3	--------------------------loginRsp information---------------------------
+23:46:16.497	always	4576	CDSD_3	LoginResponsePreQueen: LoginSucceeded=1, ResponseMessage=, UserId=ANDRECAR, OfficeId=TNV, SessionId=2, AllowToTrade=Y, TradingDate=2014-12-18 00:00:00, ServersBranchId=Q, UserDesignation=TDR
+--------------------------Office permissions information---------------------------
+Office count = 1
+office_0: m_OfficeId=TNV m_ClientId=404 m_OfficeName=TrueNorthVantageHO m_OfficeAddress=No Address m_OfficeSubnet=169675264 m_SubnetMask=24 m_OpcServerId=0
+CurrencyDetails CurrencyId=0 IsoCode=UNK CurrencyName=Unknown UsdExchangeRate=1e-008
+CurrencyDetails CurrencyId=1 IsoCode=USD CurrencyName=US dollar UsdExchangeRate=1
+CurrencyDetails CurrencyId=2 IsoCode=EUR CurrencyName=Euro UsdExchangeRate=1.24632
+CurrencyDetails CurrencyId=3 IsoCode=GBP CurrencyName=UK Pound sterling UsdExchangeRate=1.5724
+CurrencyDetails CurrencyId=4 IsoCode=GBX CurrencyName=UK Pence sterling UsdExchangeRate=0.015724
+CurrencyDetails CurrencyId=5 IsoCode=JPY CurrencyName=Japanese yen UsdExchangeRate=0.00846319
+CurrencyDetails CurrencyId=6 IsoCode=HKD CurrencyName=Hong Kong dollar UsdExchangeRate=0.128999
+CurrencyDetails CurrencyId=7 IsoCode=DKK CurrencyName=Danish krone UsdExchangeRate=0.167546
+CurrencyDetails CurrencyId=8 IsoCode=SEK CurrencyName=Swedish krona UsdExchangeRate=0.13262
+CurrencyDetails CurrencyId=9 IsoCode=NOK CurrencyName=Norvegian krone UsdExchangeRate=0.13585
+CurrencyDetails CurrencyId=10 IsoCode=CAD CurrencyName=Canadian dollar UsdExchangeRate=0.864669
+CurrencyDetails CurrencyId=11 IsoCode=SGD CurrencyName=Singapore Dollar UsdExchangeRate=0.762627
+CurrencyDetails CurrencyId=12 IsoCode=BRL CurrencyName=Brazilian Real UsdExchangeRate=0.376506
+CurrencyDetails CurrencyId=13 IsoCode=MXN CurrencyName=Mexican Pesos UsdExchangeRate=0.067757
+CurrencyDetails CurrencyId=14 IsoCode=RUB CurrencyName=Russian Ruble UsdExchangeRate=0.0171918
+CurrencyDetails CurrencyId=15 IsoCode=CHF CurrencyName=Switzerland Francs UsdExchangeRate=1.03755
+CurrencyDetails CurrencyId=16 IsoCode=AUD CurrencyName=Australian Dollar UsdExchangeRate=0.820824
+CurrencyDetails CurrencyId=17 IsoCode=NZD CurrencyName=New Zealand Dollar UsdExchangeRate=0.775944
+CurrencyDetails CurrencyId=18 IsoCode=KRW CurrencyName=South Korean won UsdExchangeRate=0.00090568
+CurrencyDetails CurrencyId=19 IsoCode=IDR CurrencyName=Indonesian Rupiah UsdExchangeRate=8.029e-005
+CurrencyDetails CurrencyId=20 IsoCode=THB CurrencyName=Thai Baht UsdExchangeRate=0.0304697
+CurrencyDetails CurrencyId=21 IsoCode=TRY CurrencyName=Turkish Lira  UsdExchangeRate=0.434086
+CurrencyDetails CurrencyId=22 IsoCode=ZAR CurrencyName=South Africa Rand UsdExchangeRate=0.0864459
+CurrencyDetails CurrencyId=23 IsoCode=MYR CurrencyName=Malaysian Ringgit UsdExchangeRate=0.285572
+CurrencyDetails CurrencyId=24 IsoCode=ZAC CurrencyName=South Africa Cent UsdExchangeRate=0.00101174
+CurrencyDetails CurrencyId=25 IsoCode=CNY CurrencyName=Chinese Yuan Renminbi UsdExchangeRate=0.161823
+--------------------------Button information---------------------------
+m_Buttons[0], m_ButtonName=LogOff, m_ButtonId=0, m_MaxNumberOfWindows=1
+m_Buttons[1], m_ButtonName=KeyboardSetup, m_ButtonId=1, m_MaxNumberOfWindows=1
+m_Buttons[2], m_ButtonName=StockWindow, m_ButtonId=2, m_MaxNumberOfWindows=100
+m_Buttons[3], m_ButtonName=TimeOfSale, m_ButtonId=3, m_MaxNumberOfWindows=100
+m_Buttons[4], m_ButtonName=HistoryLog, m_ButtonId=4, m_MaxNumberOfWindows=1
+m_Buttons[5], m_ButtonName=TraderInfo, m_ButtonId=5, m_MaxNumberOfWindows=1
+m_Buttons[6], m_ButtonName=ChartWindow, m_ButtonId=6, m_MaxNumberOfWindows=100
+m_Buttons[7], m_ButtonName=SymbolsListEditor, m_ButtonId=7, m_MaxNumberOfWindows=1
+m_Buttons[8], m_ButtonName=Summary, m_ButtonId=8, m_MaxNumberOfWindows=8
+m_Buttons[9], m_ButtonName=OrderStatus, m_ButtonId=9, m_MaxNumberOfWindows=1
+m_Buttons[10], m_ButtonName=EmergencyCancel, m_ButtonId=10, m_MaxNumberOfWindows=0
+m_Buttons[11], m_ButtonName=OrderList, m_ButtonId=11, m_MaxNumberOfWindows=1
+m_Buttons[12], m_ButtonName=Flattening, m_ButtonId=12, m_MaxNumberOfWindows=0
+m_Buttons[13], m_ButtonName=ImbalanceLocator, m_ButtonId=13, m_MaxNumberOfWindows=8
+m_Buttons[14], m_ButtonName=LiquidityScanner, m_ButtonId=14, m_MaxNumberOfWindows=0
+m_Buttons[15], m_ButtonName=QuoteBoard, m_ButtonId=15, m_MaxNumberOfWindows=10
+m_Buttons[16], m_ButtonName=Ticker, m_ButtonId=16, m_MaxNumberOfWindows=8
+m_Buttons[17], m_ButtonName=Blotter, m_ButtonId=19, m_MaxNumberOfWindows=0
+m_Buttons[18], m_ButtonName=PProApi, m_ButtonId=20, m_MaxNumberOfWindows=1
+m_Buttons[19], m_ButtonName=BasketOrder, m_ButtonId=22, m_MaxNumberOfWindows=1
+AssetClass=1 Currency=1 Account=3BARKA011183FANDRECARUSD1
+AssetClass=1 Currency=2 Account=2BARKA011183FANDRECAREUR1
+AssetClass=1 Currency=3 Account=2BARKA011183FANDRECARGBP1
+AssetClass=1 Currency=4 Account=2BARKA011183FANDRECARGBX1
+AssetClass=1 Currency=5 Account=3TRUENV001TNVANDRECARJPY1
+AssetClass=1 Currency=6 Account=3BARKA011183FANDRECARHKD1
+AssetClass=1 Currency=7 Account=2BARKA011183FANDRECARDKK1
+AssetClass=1 Currency=8 Account=2BARKA011183FANDRECARSEK1
+AssetClass=1 Currency=9 Account=2BARKA011183FANDRECARNOK1
+AssetClass=1 Currency=10 Account=1BARKA011183FANDRECARCAD1
+AssetClass=1 Currency=11 Account=3BARKA011183FANDRECARSGD1
+AssetClass=1 Currency=16 Account=4BARKA011183FANDRECARAUD1
+AssetClass=2 Currency=1 Account=3BARKA011183FANDRECARUSD2
+AssetClass=2 Currency=2 Account=2BARKA011183FANDRECAREUR2
+AssetClass=2 Currency=3 Account=2BARKA011183FANDRECARGBP2
+AssetClass=2 Currency=4 Account=2BARKA011183FANDRECARGBX2
+AssetClass=2 Currency=5 Account=3BARKA011183FANDRECARJPY2
+AssetClass=2 Currency=6 Account=3BARKA011183FANDRECARHKD2
+AssetClass=2 Currency=10 Account=1BARKA011183FANDRECARCAD2
+m_TradingDates[0], m_RegionId=0, m_TradingDate=
+m_TradingDates[1], m_RegionId=1, m_TradingDate=
+m_TradingDates[2], m_RegionId=2, m_TradingDate=
+m_TradingDates[3], m_RegionId=3, m_TradingDate=
+m_TradingDates[4], m_RegionId=4, m_TradingDate=
+
+23:46:16.498	always	4576	CDSD_3	
+--------------------------Entitlement information---------------------------
+23:46:16.498	always	4576	CDSD_3	EntitlementInfo count = 0
+23:46:16.498	always	4576	CDSD_3	EntitlementResponsePreQueen::Dump() writes directly to the log file now. use -loglevel=INFO to
+23:46:16.498	warn	4576	CDSD_3	DataAccess::LoadCreateDefaultXml - Avoid wrong call to SetComponent. Assigning members explicitily
+23:46:16.502	warn	5536	CDSD_2	ColumnInstanceSet::SetTableReservoir(): Destination/Gateway/Side columns are not in catalog. ColumnCatalog needs extending
+23:46:16.502	error	5536	CDSD_2	TableReservoir::GetRegionalRosm() const: failed to find regionId=0
+23:46:16.502	error	5536	CDSD_2	TableReservoir::GetMap() - invalid call, mode=0, shMemPopulated=0
+23:46:16.502	warn	5536	CDSD_2	ColumnInstanceSet::GetColumnInstance(): cannot find column in m_columnInstances 'TIF' trying column name without underscores
+23:46:16.502	error	5536	CDSD_2	ColumnInstanceSet::GetColumnInstance(): cannot find column with or without '_', so returning garbage
+23:46:16.502	warn	5536	CDSD_2	ColumnInstanceSet::GetColumnInstance(): cannot find column in m_columnInstances 'Stop Price' trying column name without underscores
+23:46:16.502	error	5536	CDSD_2	ColumnInstanceSet::GetColumnInstance(): cannot find column with or without '_', so returning garbage
+23:46:16.502	warn	5536	CDSD_2	ColumnInstanceSet::GetColumnInstance(): cannot find column in m_columnInstances 'Order Type' trying column name without underscores
+23:46:16.502	error	5536	CDSD_2	ColumnInstanceSet::GetColumnInstance(): cannot find column with or without '_', so returning garbage
+23:46:16.502	warn	5536	CDSD_2	ColumnInstanceSet::GetColumnInstance(): cannot find column in m_columnInstances 'Reference Side' trying column name without underscores
+23:46:16.502	error	5536	CDSD_2	ColumnInstanceSet::GetColumnInstance(): cannot find column with or without '_', so returning garbage
+23:46:16.716	warn	2756	PProApi	ColumnInstanceSet::SetTableReservoir(): Destination/Gateway/Side columns are not in catalog. ColumnCatalog needs extending
+23:46:16.716	error	2756	PProApi	KeysSetupData::CreateMarketTable(): failed. MarketTable for marketId=1 already exists
+23:46:16.717	error	2756	PProApi	KeysSetupData::CreateMarketTable(): failed. MarketTable for marketId=2 already exists
+23:46:16.717	error	2756	PProApi	KeysSetupData::CreateMarketTable(): failed. MarketTable for marketId=3 already exists
+23:46:16.717	error	2756	PProApi	KeysSetupData::CreateMarketTable(): failed. MarketTable for marketId=29 already exists
+23:46:16.262	always	3660	Messages	Connected to logger daemon at version 61019
+23:46:16.262	always	3660	Messages	Component::ConnectToLoggerDaemon(): client branch version is Ruislip-1.3.1
+23:46:16.262	always	3660	Messages	Component::ConnectToLoggerDaemon(): IPMD API version is Ruislip
+23:46:16.770	warn	3660	Messages	using obsolete utils::SafeLexicalCast - please use ToNumeric or ToString template functions instead - called from (0), converting from '1'
+23:46:16.770	warn	3928	Messages	using obsolete utils::SafeLexicalCast - please use ToNumeric or ToString template functions instead - called from (0), converting from 'status'
+23:46:16.771	warn	3660	Messages	RegionalTableReservoir::Initialise(): failed. Exception caught: 'The system cannot find the file specified.' fileName='CDSD_3_ConnSrv_2014-12-17_23-45-51'
+23:46:16.771	warn	3660	Messages	TableReservoir::AttachRegionalRosm ConnSrvRosm cannot attach, not logged in yet for this region
+23:46:16.774	warn	3660	Messages	ReservoirViews::RegisterView(): reservoir view index RESMGRMM_2 already registered
+23:46:16.774	warn	3660	Messages	ReservoirViews::RegisterView(): reservoir view index OSTAT_2 already registered
+23:46:16.774	warn	3660	Messages	ReservoirViews::RegisterView(): reservoir view index PNL_2 already registered
+23:46:16.775	warn	3660	Messages	ReservoirViews::RegisterView(): reservoir view index ALERTMESSAGE_2 already registered
+23:46:16.775	warn	3660	Messages	ReservoirViews::RegisterView(): reservoir view index ALERTREG_2 already registered
+23:46:16.775	warn	3660	Messages	ReservoirViews::RegisterView(): reservoir view index IMBALANCE_2 already registered
+23:46:16.775	warn	3660	Messages	ReservoirViews::RegisterView(): reservoir view index IMBLO_2 already registered
+23:46:16.775	warn	3660	Messages	ReservoirViews::RegisterView(): reservoir view index PAPIORDER_2 already registered
+23:46:16.775	warn	3660	Messages	ReservoirViews::RegisterView(): reservoir view index TRANSACTION_2 already registered
+23:46:16.775	warn	3660	Messages	ReservoirViews::RegisterView(): reservoir view index SCRIPT_BLOTTER_2 already registered
+23:46:16.775	warn	3660	Messages	ReservoirViews::RegisterView(): reservoir view index SCRIPTSTATEMESSAGE_2 already registered
+23:46:16.775	warn	3660	Messages	ReservoirViews::RegisterView(): reservoir view index ORDEREVENT_2 already registered
+23:46:16.775	warn	3660	Messages	ReservoirViews::RegisterView(): reservoir view index RISKLIMITS_2 already registered
+23:46:16.775	warn	3660	Messages	ReservoirViews::RegisterView(): reservoir view index TRADERSTATE_2 already registered
+23:46:16.775	warn	3660	Messages	ReservoirViews::RegisterView(): reservoir view index OPENORDER_2 already registered
+23:46:16.775	warn	3660	Messages	ReservoirViews::RegisterView(): reservoir view index OPENPOSN_2 already registered
+23:46:16.775	warn	3660	Messages	ReservoirViews::RegisterView(): reservoir view index SIMPLEORD_STATUS_2 already registered
+23:46:16.775	warn	3660	Messages	ReservoirViews::RegisterView(): reservoir view index NEWTRANSACTION_2 already registered
+23:46:16.776	warn	3660	Messages	ReservoirViews::RegisterView(): reservoir view index NEWMARKETORDERBLOT_2 already registered
+23:46:16.975	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=2 and sourceId=13
+23:46:16.975	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=3 and sourceId=13
+23:46:16.976	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=17 and sourceId=13
+23:46:16.976	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=18 and sourceId=14
+23:46:16.976	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=19 and sourceId=14
+23:46:16.976	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=20 and sourceId=14
+23:46:16.976	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=4 and sourceId=14
+23:46:16.976	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=5 and sourceId=14
+23:46:16.976	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=6 and sourceId=14
+23:46:16.976	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=7 and sourceId=14
+23:46:16.976	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=8 and sourceId=14
+23:46:16.976	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=9 and sourceId=14
+23:46:16.976	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=10 and sourceId=14
+23:46:16.976	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=11 and sourceId=14
+23:46:16.977	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=12 and sourceId=14
+23:46:16.977	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=14 and sourceId=14
+23:46:16.977	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=15 and sourceId=14
+23:46:16.977	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=16 and sourceId=14
+23:46:16.977	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=22 and sourceId=14
+23:46:16.977	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=23 and sourceId=14
+23:46:16.977	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=24 and sourceId=14
+23:46:16.977	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=4 and sourceId=16
+23:46:16.977	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=22 and sourceId=16
+23:46:16.977	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=23 and sourceId=16
+23:46:16.977	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=24 and sourceId=16
+23:46:16.977	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=2 and sourceId=17
+23:46:16.977	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=3 and sourceId=17
+23:46:16.978	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=4 and sourceId=17
+23:46:16.978	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=5 and sourceId=17
+23:46:16.978	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=6 and sourceId=17
+23:46:16.978	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=7 and sourceId=17
+23:46:16.978	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=8 and sourceId=17
+23:46:16.978	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=9 and sourceId=17
+23:46:16.978	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=10 and sourceId=17
+23:46:16.978	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=11 and sourceId=17
+23:46:16.978	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=22 and sourceId=17
+23:46:16.978	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=23 and sourceId=17
+23:46:16.978	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=24 and sourceId=17
+23:46:16.978	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=12 and sourceId=17
+23:46:16.978	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=14 and sourceId=17
+23:46:16.979	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=15 and sourceId=17
+23:46:16.979	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=16 and sourceId=17
+23:46:16.979	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=17 and sourceId=17
+23:46:16.979	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=2 and sourceId=18
+23:46:16.979	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=3 and sourceId=18
+23:46:16.979	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=17 and sourceId=18
+23:46:16.979	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=2 and sourceId=20
+23:46:16.979	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=3 and sourceId=21
+23:46:16.979	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=2 and sourceId=21
+23:46:16.979	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=17 and sourceId=21
+23:46:16.979	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=6 and sourceId=22
+23:46:16.979	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=7 and sourceId=23
+23:46:16.979	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=8 and sourceId=24
+23:46:16.979	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=9 and sourceId=24
+23:46:16.980	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=10 and sourceId=24
+23:46:16.980	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=11 and sourceId=24
+23:46:16.980	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=18 and sourceId=25
+23:46:16.980	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=19 and sourceId=25
+23:46:16.980	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=20 and sourceId=25
+23:46:16.980	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=4 and sourceId=25
+23:46:16.980	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=5 and sourceId=25
+23:46:16.980	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=6 and sourceId=25
+23:46:16.980	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=7 and sourceId=25
+23:46:16.980	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=8 and sourceId=25
+23:46:16.980	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=9 and sourceId=25
+23:46:16.980	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=10 and sourceId=25
+23:46:16.981	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=11 and sourceId=25
+23:46:16.981	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=12 and sourceId=25
+23:46:16.981	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=14 and sourceId=25
+23:46:16.981	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=15 and sourceId=25
+23:46:16.981	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=16 and sourceId=25
+23:46:16.981	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=22 and sourceId=25
+23:46:16.981	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=23 and sourceId=25
+23:46:16.981	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=24 and sourceId=25
+23:46:16.981	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=2 and sourceId=32
+23:46:16.981	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=2 and sourceId=37
+23:46:16.982	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=3 and sourceId=37
+23:46:16.982	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=29 and sourceId=39
+23:46:16.982	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=29 and sourceId=39
+23:46:16.982	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=2 and sourceId=54
+23:46:16.982	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=3 and sourceId=54
+23:46:16.982	warn	4576	CDSD_3	RegionFeedEntitlements::AddMarket(): received and ignored duplicate entitlement for MarketId=5 and sourceId=7
+23:46:16.988	warn	4576	CDSD_3	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.989	warn	4576	CDSD_3	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.990	warn	4576	CDSD_3	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.990	warn	320	CDSD_3	ClientConnection::SendMessage message exceeds IPMD, truncating to 4096 Stripped data = 'has more than one vendor. ^MarketSource pair 2/37#CM# has more than one vendor. ^MarketSource pair 3/37#CM# has more than one vendor. ^MarketSource pair 29/39#CM# has more than one vendor. ^MarketSource pair 29/39#CM# has more than one vendor. ^MarketSource pair 2/54#CM# has more than one vendor. ^MarketSource pair 3/54#CM# has more than one vendor. ^MarketSource pair 5/7#CM# has more than one vendor. ,99=Watchdog,302=error'
+23:46:16.991	warn	4576	CDSD_3	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.992	warn	4576	CDSD_3	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.993	warn	4576	CDSD_3	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.994	warn	4576	CDSD_3	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.995	warn	4576	CDSD_3	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.996	warn	4576	CDSD_3	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.997	warn	4576	CDSD_3	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:16.999	warn	4576	CDSD_3	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:17.000	warn	4576	CDSD_3	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:17.001	warn	4576	CDSD_3	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:17.003	warn	4576	CDSD_3	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:17.005	warn	4576	CDSD_3	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:17.006	warn	4576	CDSD_3	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:17.007	warn	4576	CDSD_3	CDSDaemon::GetButtonsInfo() casting chars to int as current Ipmd code can't convert to string for transport TBD
+23:46:17.020	warn	2756	PProApi	PProApiAction::CreateHandler request to add already created handler for ID 2
+23:46:17.020	warn	2756	PProApi	PProApiAction::CreateHandler request to add already created handler for ID 3
+23:46:17.020	warn	2756	PProApi	PProApiAction::CreateHandler request to add already created handler for ID 4
+23:46:17.020	warn	2756	PProApi	PProApiAction::CreateHandler request to add already created handler for ID 6
+23:46:17.020	warn	2756	PProApi	PProApiAction::CreateHandler request to add already created handler for ID 19
+23:46:17.020	warn	2756	PProApi	PProApiAction::CreateHandler request to add already created handler for ID 9
+23:46:17.020	warn	2756	PProApi	PProApiAction::CreateHandler request to add already created handler for ID 10
+23:46:17.020	warn	2756	PProApi	PProApiAction::CreateHandler request to add already created handler for ID 13
+23:46:17.020	warn	2756	PProApi	PProApiAction::CreateHandler request to add already created handler for ID 14
+23:46:17.020	warn	2756	PProApi	PProApiAction::CreateHandler request to add already created handler for ID 11
+23:46:17.020	warn	2756	PProApi	PProApiAction::CreateHandler request to add already created handler for ID 7
+23:46:17.020	error	2756	PProApi	PProApiAction::CreateHandler request to add nonexistent handler
+23:46:17.020	warn	2756	PProApi	PProApiAction::CreateHandler request to add already created handler for ID 12
+23:46:17.020	warn	2756	PProApi	PProApiAction::CreateHandler request to add already created handler for ID 17
+23:46:17.021	warn	2756	PProApi	PProApiAction::CreateHandler request to add already created handler for ID 18
+23:46:17.295	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of LogOff.exe, as can't kill processId=0
+23:46:17.297	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of KeyboardSetup.exe, as can't kill processId=0
+23:46:17.299	warn	3344	Watchdog	Launcher::EndProcess processID 3552
+23:46:17.300	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of StockWindow.exe, as can't kill processId=3552
+23:46:17.302	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of TimeOfSale.exe, as can't kill processId=0
+23:46:17.304	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of HistoryLog.exe, as can't kill processId=0
+23:46:17.305	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of TraderInfo.exe, as can't kill processId=0
+23:46:17.307	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of ChartWindow.exe, as can't kill processId=0
+23:46:17.308	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of SymbolsListEditor.exe, as can't kill processId=0
+23:46:17.310	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of Summary.exe, as can't kill processId=0
+23:46:17.311	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of OrderStatus.exe, as can't kill processId=0
+23:46:17.314	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of OrderList.exe, as can't kill processId=0
+23:46:17.316	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of ImbalanceLocator.exe, as can't kill processId=0
+23:46:17.318	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of QuoteBoard.exe, as can't kill processId=0
+23:46:17.319	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of Ticker.exe, as can't kill processId=0
+23:46:17.320	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of BasketOrder.exe, as can't kill processId=0
+23:46:17.322	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of LockUnlock.exe, as can't kill processId=0
+23:46:17.323	error	3344	Watchdog	Watchdog::HandleIncomingIpmdMessage EndProcess failed. Abandoning further attempts to kill instances of SaveLayout.exe, as can't kill processId=0
+StockWindow_1 is disconnected from logger server, error: Unknown exception
+23:46:17.493	warn	4576	CDSD_3	todo use reliability type weak
+23:46:17.494	warn	4576	CDSD_3	todo use reliability type ostat
+23:46:17.353	always	5208	StockWindow_2	Connected to logger daemon at version 61019
+23:46:17.353	always	5208	StockWindow_2	Component::ConnectToLoggerDaemon(): client branch version is Ruislip-1.3.1
+23:46:17.353	always	5208	StockWindow_2	Component::ConnectToLoggerDaemon(): IPMD API version is Ruislip
+23:46:17.862	warn	5208	StockWindow_2	using obsolete utils::SafeLexicalCast - please use ToNumeric or ToString template functions instead - called from (0), converting from '1'
+23:46:18.205	warn	4576	CDSD_3	ColumnInstanceSet::SetTableReservoir(): Destination/Gateway/Side columns are not in catalog. ColumnCatalog needs extending
+23:46:18.205	error	4576	CDSD_3	TableReservoir::GetRegionalRosm() const: failed to find regionId=0
+23:46:18.205	error	4576	CDSD_3	TableReservoir::GetMap() - invalid call, mode=0, shMemPopulated=0
+23:46:18.205	warn	4576	CDSD_3	ColumnInstanceSet::GetColumnInstance(): cannot find column in m_columnInstances 'TIF' trying column name without underscores
+23:46:18.205	error	4576	CDSD_3	ColumnInstanceSet::GetColumnInstance(): cannot find column with or without '_', so returning garbage
+23:46:18.205	warn	4576	CDSD_3	ColumnInstanceSet::GetColumnInstance(): cannot find column in m_columnInstances 'Stop Price' trying column name without underscores
+23:46:18.205	error	4576	CDSD_3	ColumnInstanceSet::GetColumnInstance(): cannot find column with or without '_', so returning garbage
+23:46:18.205	warn	4576	CDSD_3	ColumnInstanceSet::GetColumnInstance(): cannot find column in m_columnInstances 'Order Type' trying column name without underscores
+23:46:18.205	error	4576	CDSD_3	ColumnInstanceSet::GetColumnInstance(): cannot find column with or without '_', so returning garbage
+23:46:18.205	warn	4576	CDSD_3	ColumnInstanceSet::GetColumnInstance(): cannot find column in m_columnInstances 'Reference Side' trying column name without underscores
+23:46:18.205	error	4576	CDSD_3	ColumnInstanceSet::GetColumnInstance(): cannot find column with or without '_', so returning garbage
+23:46:18.222	warn	5208	StockWindow_2	ColumnInstanceSet::SetTableReservoir(): Destination/Gateway/Side columns are not in catalog. ColumnCatalog needs extending
+23:46:18.334	warn	4840	StockWindow_2	using obsolete utils::SafeLexicalCast - please use ToNumeric or ToString template functions instead - called from (0), converting from '9501.JP'
+23:46:18.340	warn	4840	StockWindow_2	Level1Reservoir::CalculateUpDownTickAlgorithm() m_upDownTickAlgorithm value HACKED!
+23:46:17.838	always	5784	TimeOfSale_1	Connected to logger daemon at version 61019
+23:46:17.839	always	5784	TimeOfSale_1	Component::ConnectToLoggerDaemon(): client branch version is Ruislip-1.3.1
+23:46:17.839	always	5784	TimeOfSale_1	Component::ConnectToLoggerDaemon(): IPMD API version is Ruislip
+23:46:18.367	warn	5784	TimeOfSale_1	using obsolete utils::SafeLexicalCast - please use ToNumeric or ToString template functions instead - called from (0), converting from '1'
+23:46:18.545	warn	5208	StockWindow_2	SageMessage::GetField(MapperFields_e): fieldId=30('type') doesn't exist in ipmd message: ipmdtype=swostatupdate, sendercomponentid=StockWindow_2, text=
+23:46:18.545	warn	5208	StockWindow_2	SageMessage::GetField(MapperFields_e): fieldId=30('type') doesn't exist in ipmd message: ipmdtype=swostatupdate, text=
+23:46:18.698	warn	4840	StockWindow_2	ReservoirViews::RegisterView(): reservoir view index RESMGRMM_3 already registered
+23:46:18.698	warn	4840	StockWindow_2	ReservoirViews::RegisterView(): reservoir view index OSTAT_3 already registered
+23:46:18.698	warn	4840	StockWindow_2	ReservoirViews::RegisterView(): reservoir view index PNL_3 already registered
+23:46:18.698	warn	4840	StockWindow_2	ReservoirViews::RegisterView(): reservoir view index ALERTMESSAGE_3 already registered
+23:46:18.698	warn	4840	StockWindow_2	ReservoirViews::RegisterView(): reservoir view index ALERTREG_3 already registered
+23:46:18.698	warn	4840	StockWindow_2	ReservoirViews::RegisterView(): reservoir view index IMBALANCE_3 already registered
+23:46:18.698	warn	4840	StockWindow_2	ReservoirViews::RegisterView(): reservoir view index IMBLO_3 already registered
+23:46:18.698	warn	4840	StockWindow_2	ReservoirViews::RegisterView(): reservoir view index PAPIORDER_3 already registered
+23:46:18.699	warn	4840	StockWindow_2	ReservoirViews::RegisterView(): reservoir view index TRANSACTION_3 already registered
+23:46:18.699	warn	4840	StockWindow_2	ReservoirViews::RegisterView(): reservoir view index SCRIPT_BLOTTER_3 already registered
+23:46:18.699	warn	4840	StockWindow_2	ReservoirViews::RegisterView(): reservoir view index SCRIPTSTATEMESSAGE_3 already registered
+23:46:18.699	warn	4840	StockWindow_2	ReservoirViews::RegisterView(): reservoir view index ORDEREVENT_3 already registered
+23:46:18.699	warn	4840	StockWindow_2	ReservoirViews::RegisterView(): reservoir view index RISKLIMITS_3 already registered
+23:46:18.699	warn	4840	StockWindow_2	ReservoirViews::RegisterView(): reservoir view index TRADERSTATE_3 already registered
+23:46:18.699	warn	4840	StockWindow_2	ReservoirViews::RegisterView(): reservoir view index OPENORDER_3 already registered
+23:46:18.699	warn	4840	StockWindow_2	ReservoirViews::RegisterView(): reservoir view index OPENPOSN_3 already registered
+23:46:18.699	warn	4840	StockWindow_2	ReservoirViews::RegisterView(): reservoir view index SIMPLEORD_STATUS_3 already registered
+23:46:18.699	warn	4840	StockWindow_2	ReservoirViews::RegisterView(): reservoir view index NEWTRANSACTION_3 already registered
+23:46:18.699	warn	4840	StockWindow_2	ReservoirViews::RegisterView(): reservoir view index NEWMARKETORDERBLOT_3 already registered
+23:46:18.700	warn	3928	Messages	ReservoirViews::RegisterView(): reservoir view index RESMGRMM_3 already registered
+23:46:18.700	warn	3928	Messages	ReservoirViews::RegisterView(): reservoir view index OSTAT_3 already registered
+23:46:18.700	warn	3928	Messages	ReservoirViews::RegisterView(): reservoir view index PNL_3 already registered
+23:46:18.700	warn	3928	Messages	ReservoirViews::RegisterView(): reservoir view index ALERTMESSAGE_3 already registered
+23:46:18.700	warn	3928	Messages	ReservoirViews::RegisterView(): reservoir view index ALERTREG_3 already registered
+23:46:18.700	warn	3928	Messages	ReservoirViews::RegisterView(): reservoir view index IMBALANCE_3 already registered
+23:46:18.700	warn	3928	Messages	ReservoirViews::RegisterView(): reservoir view index IMBLO_3 already registered
+23:46:18.700	warn	3928	Messages	ReservoirViews::RegisterView(): reservoir view index PAPIORDER_3 already registered
+23:46:18.700	warn	3928	Messages	ReservoirViews::RegisterView(): reservoir view index TRANSACTION_3 already registered
+23:46:18.700	warn	3928	Messages	ReservoirViews::RegisterView(): reservoir view index SCRIPT_BLOTTER_3 already registered
+23:46:18.700	warn	3928	Messages	ReservoirViews::RegisterView(): reservoir view index SCRIPTSTATEMESSAGE_3 already registered
+23:46:18.700	warn	3928	Messages	ReservoirViews::RegisterView(): reservoir view index ORDEREVENT_3 already registered
+23:46:18.701	warn	3928	Messages	ReservoirViews::RegisterView(): reservoir view index RISKLIMITS_3 already registered
+23:46:18.701	warn	3928	Messages	ReservoirViews::RegisterView(): reservoir view index TRADERSTATE_3 already registered
+23:46:18.701	warn	3928	Messages	ReservoirViews::RegisterView(): reservoir view index OPENORDER_3 already registered
+23:46:18.701	warn	3928	Messages	ReservoirViews::RegisterView(): reservoir view index OPENPOSN_3 already registered
+23:46:18.701	warn	3928	Messages	ReservoirViews::RegisterView(): reservoir view index SIMPLEORD_STATUS_3 already registered
+23:46:18.701	warn	3928	Messages	ReservoirViews::RegisterView(): reservoir view index NEWTRANSACTION_3 already registered
+23:46:18.701	warn	3928	Messages	ReservoirViews::RegisterView(): reservoir view index NEWMARKETORDERBLOT_3 already registered
+23:46:18.721	warn	2480	TimeOfSale_1	using obsolete utils::SafeLexicalCast - please use ToNumeric or ToString template functions instead - called from (0), converting from '9501.JP'
+23:46:18.723	warn	2480	TimeOfSale_1	Level1Reservoir::CalculateUpDownTickAlgorithm() m_upDownTickAlgorithm value HACKED!
+23:46:18.723	warn	2480	TimeOfSale_1	ReservoirViews::RegisterView(): reservoir view index RESMGRMM_3 already registered
+23:46:18.723	warn	2480	TimeOfSale_1	ReservoirViews::RegisterView(): reservoir view index OSTAT_3 already registered
+23:46:18.723	warn	2480	TimeOfSale_1	ReservoirViews::RegisterView(): reservoir view index PNL_3 already registered
+23:46:18.723	warn	2480	TimeOfSale_1	ReservoirViews::RegisterView(): reservoir view index ALERTMESSAGE_3 already registered
+23:46:18.723	warn	2480	TimeOfSale_1	ReservoirViews::RegisterView(): reservoir view index ALERTREG_3 already registered
+23:46:18.724	warn	2480	TimeOfSale_1	ReservoirViews::RegisterView(): reservoir view index IMBALANCE_3 already registered
+23:46:18.724	warn	2480	TimeOfSale_1	ReservoirViews::RegisterView(): reservoir view index IMBLO_3 already registered
+23:46:18.724	warn	2480	TimeOfSale_1	ReservoirViews::RegisterView(): reservoir view index PAPIORDER_3 already registered
+23:46:18.724	warn	2480	TimeOfSale_1	ReservoirViews::RegisterView(): reservoir view index TRANSACTION_3 already registered
+23:46:18.724	warn	2480	TimeOfSale_1	ReservoirViews::RegisterView(): reservoir view index SCRIPT_BLOTTER_3 already registered
+23:46:18.724	warn	2480	TimeOfSale_1	ReservoirViews::RegisterView(): reservoir view index SCRIPTSTATEMESSAGE_3 already registered
+23:46:18.724	warn	2480	TimeOfSale_1	ReservoirViews::RegisterView(): reservoir view index ORDEREVENT_3 already registered
+23:46:18.724	warn	2480	TimeOfSale_1	ReservoirViews::RegisterView(): reservoir view index RISKLIMITS_3 already registered
+23:46:18.724	warn	2480	TimeOfSale_1	ReservoirViews::RegisterView(): reservoir view index TRADERSTATE_3 already registered
+23:46:18.724	warn	2480	TimeOfSale_1	ReservoirViews::RegisterView(): reservoir view index OPENORDER_3 already registered
+23:46:18.724	warn	2480	TimeOfSale_1	ReservoirViews::RegisterView(): reservoir view index OPENPOSN_3 already registered
+23:46:18.724	warn	2480	TimeOfSale_1	ReservoirViews::RegisterView(): reservoir view index SIMPLEORD_STATUS_3 already registered
+23:46:18.724	warn	2480	TimeOfSale_1	ReservoirViews::RegisterView(): reservoir view index NEWTRANSACTION_3 already registered
+23:46:18.725	warn	2480	TimeOfSale_1	ReservoirViews::RegisterView(): reservoir view index NEWMARKETORDERBLOT_3 already registered
+23:46:18.735	warn	2756	PProApi	ColumnInstanceSet::SetTableReservoir(): Destination/Gateway/Side columns are not in catalog. ColumnCatalog needs extending
+23:46:18.736	error	2756	PProApi	KeysSetupData::CreateMarketTable(): failed. MarketTable for marketId=1 already exists
+23:46:18.736	error	2756	PProApi	KeysSetupData::CreateMarketTable(): failed. MarketTable for marketId=2 already exists
+23:46:18.736	error	2756	PProApi	KeysSetupData::CreateMarketTable(): failed. MarketTable for marketId=3 already exists
+23:46:18.736	error	2756	PProApi	KeysSetupData::CreateMarketTable(): failed. MarketTable for marketId=29 already exists
+23:46:18.736	error	2756	PProApi	KeysSetupData::CreateMarketTable(): failed. MarketTable for marketId=5 already exists
+23:46:18.736	error	2756	PProApi	KeysSetupData::CreateMarketTable(): failed. MarketTable for marketId=6 already exists
+23:46:18.736	error	2756	PProApi	KeysSetupData::CreateMarketTable(): failed. MarketTable for marketId=7 already exists
+23:46:18.736	error	2756	PProApi	KeysSetupData::CreateMarketTable(): failed. MarketTable for marketId=8 already exists
+23:46:18.736	error	2756	PProApi	KeysSetupData::CreateMarketTable(): failed. MarketTable for marketId=9 already exists
+23:46:18.736	error	2756	PProApi	KeysSetupData::CreateMarketTable(): failed. MarketTable for marketId=10 already exists
+23:46:18.736	error	2756	PProApi	KeysSetupData::CreateMarketTable(): failed. MarketTable for marketId=11 already exists
+23:46:18.736	error	2756	PProApi	KeysSetupData::CreateMarketTable(): failed. MarketTable for marketId=37 already exists
+23:46:18.736	error	2756	PProApi	KeysSetupData::CreateMarketTable(): failed. MarketTable for marketId=38 already exists
+23:46:18.736	error	2756	PProApi	KeysSetupData::CreateMarketTable(): failed. MarketTable for marketId=39 already exists
+23:46:18.737	error	2756	PProApi	KeysSetupData::CreateMarketTable(): failed. MarketTable for marketId=40 already exists
+23:46:18.353	always	3908	TimeOfSale_2	Connected to logger daemon at version 61019
+23:46:18.353	always	3908	TimeOfSale_2	Component::ConnectToLoggerDaemon(): client branch version is Ruislip-1.3.1
+23:46:18.353	always	3908	TimeOfSale_2	Component::ConnectToLoggerDaemon(): IPMD API version is Ruislip
+23:46:18.867	warn	3908	TimeOfSale_2	using obsolete utils::SafeLexicalCast - please use ToNumeric or ToString template functions instead - called from (0), converting from '1'
+23:46:18.908	warn	1048	TimeOfSale_2	using obsolete utils::SafeLexicalCast - please use ToNumeric or ToString template functions instead - called from (0), converting from 'logindata'
+23:46:18.908	warn	1048	TimeOfSale_2	ReservoirViews::RegisterView(): reservoir view index RESMGRMM_3 already registered
+23:46:18.908	warn	1048	TimeOfSale_2	ReservoirViews::RegisterView(): reservoir view index OSTAT_3 already registered
+23:46:18.908	warn	1048	TimeOfSale_2	ReservoirViews::RegisterView(): reservoir view index PNL_3 already registered
+23:46:18.908	warn	1048	TimeOfSale_2	ReservoirViews::RegisterView(): reservoir view index ALERTMESSAGE_3 already registered
+23:46:18.908	warn	1048	TimeOfSale_2	ReservoirViews::RegisterView(): reservoir view index ALERTREG_3 already registered
+23:46:18.908	warn	1048	TimeOfSale_2	ReservoirViews::RegisterView(): reservoir view index IMBALANCE_3 already registered
+23:46:18.908	warn	1048	TimeOfSale_2	ReservoirViews::RegisterView(): reservoir view index IMBLO_3 already registered
+23:46:18.908	warn	1048	TimeOfSale_2	ReservoirViews::RegisterView(): reservoir view index PAPIORDER_3 already registered
+23:46:18.909	warn	1048	TimeOfSale_2	ReservoirViews::RegisterView(): reservoir view index TRANSACTION_3 already registered
+23:46:18.909	warn	1048	TimeOfSale_2	ReservoirViews::RegisterView(): reservoir view index SCRIPT_BLOTTER_3 already registered
+23:46:18.909	warn	1048	TimeOfSale_2	ReservoirViews::RegisterView(): reservoir view index SCRIPTSTATEMESSAGE_3 already registered
+23:46:18.909	warn	1048	TimeOfSale_2	ReservoirViews::RegisterView(): reservoir view index ORDEREVENT_3 already registered
+23:46:18.909	warn	1048	TimeOfSale_2	ReservoirViews::RegisterView(): reservoir view index RISKLIMITS_3 already registered
+23:46:18.909	warn	1048	TimeOfSale_2	ReservoirViews::RegisterView(): reservoir view index TRADERSTATE_3 already registered
+23:46:18.909	warn	1048	TimeOfSale_2	ReservoirViews::RegisterView(): reservoir view index OPENORDER_3 already registered
+23:46:18.909	warn	1048	TimeOfSale_2	ReservoirViews::RegisterView(): reservoir view index OPENPOSN_3 already registered
+23:46:18.909	warn	1048	TimeOfSale_2	ReservoirViews::RegisterView(): reservoir view index SIMPLEORD_STATUS_3 already registered
+23:46:18.909	warn	1048	TimeOfSale_2	ReservoirViews::RegisterView(): reservoir view index NEWTRANSACTION_3 already registered
+23:46:18.909	warn	1048	TimeOfSale_2	ReservoirViews::RegisterView(): reservoir view index NEWMARKETORDERBLOT_3 already registered
+23:46:19.167	warn	5824	CDSD_3	ReservoirManager::ReservoirManager::FillLevel1Reservoir disabling L1 reservoir multi record
+23:46:19.167	warn	5824	CDSD_3	SageMessage::GetField(MapperFields_e): fieldId=302('flavour') doesn't exist in ipmd message: ipmdtype=register, sendercomponentid=StockWindow_2, regionid=3, reservoirkey=9501.JP, reservoirtype=L2, ipport=0, dump=1
+23:46:18.859	always	5832	HistoryLog_1	Connected to logger daemon at version 61019
+23:46:18.859	always	5832	HistoryLog_1	Component::ConnectToLoggerDaemon(): client branch version is Ruislip-1.3.1
+23:46:18.859	always	5832	HistoryLog_1	Component::ConnectToLoggerDaemon(): IPMD API version is Ruislip
+23:46:19.368	warn	5832	HistoryLog_1	using obsolete utils::SafeLexicalCast - please use ToNumeric or ToString template functions instead - called from (0), converting from '1'
+23:46:19.416	warn	5508	HistoryLog_1	using obsolete utils::SafeLexicalCast - please use ToNumeric or ToString template functions instead - called from (0), converting from 'reservoir'
+23:46:19.481	warn	5832	HistoryLog_1	Cannot find a node in XmlAccess::GetXmlSubSection , Columns -- I'm clearing the out_xmlSectionsContainer but the standard logic didn't... who's wrong??? :S
+23:46:19.482	error	5832	HistoryLog_1	utils::ToNumeric(): failed converting from '' exception: bad lexical cast: source type value could not be interpreted as target
+23:46:19.482	warn	5832	HistoryLog_1	Cannot find a node in XmlAccess::GetXmlSubSection , ColumnsView -- I'm clearing the out_xmlSectionsContainer but the standard logic didn't... who's wrong??? :S
+23:46:19.482	warn	5832	HistoryLog_1	Cannot find a node in XmlAccess::GetXmlSubSection , Limit -- I'm clearing the out_xmlSectionsContainer but the standard logic didn't... who's wrong??? :S
+23:46:19.482	warn	5832	HistoryLog_1	Cannot find a node in XmlAccess::GetXmlSubSection , Stop -- I'm clearing the out_xmlSectionsContainer but the standard logic didn't... who's wrong??? :S
+23:46:19.482	warn	5832	HistoryLog_1	Cannot find a node in XmlAccess::GetXmlSubSection , Activity -- I'm clearing the out_xmlSectionsContainer but the standard logic didn't... who's wrong??? :S
+23:46:19.482	warn	5832	HistoryLog_1	Cannot find a node in XmlAccess::GetXmlSubSection , Color -- I'm clearing the out_xmlSectionsContainer but the standard logic didn't... who's wrong??? :S
+23:46:19.482	warn	5832	HistoryLog_1	Cannot find a node in XmlAccess::GetXmlSubSection , Color -- I'm clearing the out_xmlSectionsContainer but the standard logic didn't... who's wrong??? :S
+23:46:19.588	warn	5832	HistoryLog_1	ColumnInstanceSet::SetTableReservoir(): Destination/Gateway/Side columns are not in catalog. ColumnCatalog needs extending
+23:46:19.651	warn	5824	CDSD_3	SageMessage::GetField(MapperFields_e): fieldId=302('flavour') doesn't exist in ipmd message: ipmdtype=register, sendercomponentid=StockWindow_2, regionid=3, reservoirkey=9501.JP, reservoirtype=TOS, ipport=0, dump=1
+23:46:19.658	warn	1048	TimeOfSale_2	Level1Reservoir::CalculateUpDownTickAlgorithm() m_upDownTickAlgorithm value HACKED!
+23:46:19.374	always	4324	Summary_1	Connected to logger daemon at version 61019
+23:46:19.374	always	4324	Summary_1	Component::ConnectToLoggerDaemon(): client branch version is Ruislip-1.3.1
+23:46:19.374	always	4324	Summary_1	Component::ConnectToLoggerDaemon(): IPMD API version is Ruislip
+23:46:19.882	warn	4324	Summary_1	using obsolete utils::SafeLexicalCast - please use ToNumeric or ToString template functions instead - called from (0), converting from '1'
+23:46:19.882	warn	3152	Summary_1	using obsolete utils::SafeLexicalCast - please use ToNumeric or ToString template functions instead - called from (0), converting from 'reservoir'
+23:46:19.925	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=status, sendercomponentid=CDSD_2, regionid=2, text=Connect to Dispatcher EMEA, targetcomponentid=Watchdog, flavour=info
+23:46:19.926	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=status, sendercomponentid=CDSD_2, regionid=2, text=Start RMC connections for EMEA, targetcomponentid=Watchdog, flavour=info
+23:46:19.926	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=status, sendercomponentid=CDSD_2, regionid=2, text=Fetch snapshots for Region 2 ANDRECAR Equity, targetcomponentid=Watchdog, flavour=info
+23:46:19.926	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=status, sendercomponentid=CDSD_3, regionid=3, text=Fetching connection information for APAC, targetcomponentid=Watchdog, flavour=info
+23:46:19.926	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=logindata, sendercomponentid=CDSD_2, regionid=2, officeid=TNV, tradername=ANDRECAR
+23:46:19.926	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=layout, sendercomponentid=CDSD_2, regionid=2
+23:46:19.926	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=status, sendercomponentid=CDSD_3, regionid=3, text=Fetching entitlements forAPAC, targetcomponentid=Watchdog, flavour=info
+23:46:19.927	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=status, sendercomponentid=CDSD_3, regionid=3, text=MarketSource pair 2/13, has more than one vendor. ^MarketSource pair 3/13, has more than one vendor. ^MarketSource pair 17/13, has more than one vendor. ^MarketSource pair 18/14, has more than one vendor. ^MarketSource pair 19/14, has more than one vendor. ^MarketSource pair 20/14, has more than one vendor. ^MarketSource pair 4/14, has more than one vendor. ^MarketSource pair 5/14, has more than one vendor. ^MarketSource pair 6/14, has more than one vendor. ^MarketSource pair 7/14, has more than one vendor. ^MarketSource pair 8/14, has more than one vendor. ^MarketSource pair 9/14, has more than one vendor. ^MarketSource pair 10/14, has more than one vendor. ^MarketSource pair 11/14, has more than one vendor. ^MarketSource pair 12/14, has more than one vendor. ^MarketSource pair 14/14, has more than one vendor. ^MarketSource pair 15/14, has more than one vendor. ^MarketSource pair 16/14, has more than one vendor. ^MarketSource pair 22/14, has more than one vendor. ^MarketSource pair 23/14, has more than one vendor. ^MarketSource pair 24/14, has more than one vendor. ^MarketSource pair 4/16, has more than one vendor. ^MarketSource pair 22/16, has more than one vendor. ^MarketSource pair 23/16, has more than one vendor. ^MarketSource pair 24/16, has more than one vendor. ^MarketSource pair 2/17, has more than one vendor. ^MarketSource pair 3/17, has more than one vendor. ^MarketSource pair 4/17, has more than one vendor. ^MarketSource pair 5/17, has more than one vendor. ^MarketSource pair 6/17, has more than one vendor. ^MarketSource pair 7/17, has more than one vendor. ^MarketSource pair 8/17, has more than one vendor. ^MarketSource pair 9/17, has more than one vendor. ^MarketSource pair 10/17, has more than one vendor. ^MarketSource pair 11/17, has more than one vendor. ^MarketSource pair 22/17, has more than one vendor. ^MarketSource pair 23/17, has more than one vendor. ^MarketSource pair 24/17, has more than one vendor. ^MarketSource pair 12/17, has more than one vendor. ^MarketSource pair 14/17, has more than one vendor. ^MarketSource pair 15/17, has more than one vendor. ^MarketSource pair 16/17, has more than one vendor. ^MarketSource pair 17/17, has more than one vendor. ^MarketSource pair 2/18, has more than one vendor. ^MarketSource pair 3/18, has more than one vendor. ^MarketSource pair 17/18, has more than one vendor. ^MarketSource pair 2/20, has more than one vendor. ^MarketSource pair 3/21, has more than one vendor. ^MarketSource pair 2/21, has more than one vendor. ^MarketSource pair 17/21, has more than one vendor. ^MarketSource pair 6/22, has more than one vendor. ^MarketSource pair 7/23, has more than one vendor. ^MarketSource pair 8/24, has more than one vendor. ^MarketSource pair 9/24, has more than one vendor. ^MarketSource pair 10/24, has more than one vendor. ^MarketSource pair 11/24, has more than one vendor. ^MarketSource pair 18/25, has more than one vendor. ^MarketSource pair 19/25, has more than one vendor. ^MarketSource pair 20/25, has more than one vendor. ^MarketSource pair 4/25, has more than one vendor. ^MarketSource pair 5/25, has more than one vendor. ^MarketSource pair 6/25, has more than one vendor. ^MarketSource pair 7/25, has more than one vendor. ^MarketSource pair 8/25, has more than one vendor. ^MarketSource pair 9/25, has more than one vendor. ^MarketSource pair 10/25, has more than one vendor. ^MarketSource pair 11/25, has more than one vendor. ^MarketSource pair 12/25, has more than one vendor. ^MarketSource pair 14/25, has more than one vendor. ^MarketSource pair 15/25, has more than one vendor. ^MarketSource pair 16/25, has more than one vendor. ^MarketSource pair 22/25, has more than one vendor. ^MarketSource pair 23/25, has more than one vendor. ^MarketSource pair 24/25, has more than one vendor. ^MarketSource pair 2/32, <snip>
+23:46:19.927	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=status, sendercomponentid=CDSD_3, regionid=3, text=Setting Trading Date for APAC, targetcomponentid=Watchdog, flavour=info
+23:46:19.927	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=status, sendercomponentid=CDSD_3, regionid=3, text=Set up accounts for APAC, targetcomponentid=Watchdog, flavour=info
+23:46:19.927	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=status, sendercomponentid=CDSD_3, regionid=3, text=Set up multicast for APAC, targetcomponentid=Watchdog, flavour=info
+23:46:19.927	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=status, sendercomponentid=CDSD_3, regionid=3, text=Connecting to Feed Trx, APAC, targetcomponentid=Watchdog, flavour=info
+23:46:19.927	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=status, sendercomponentid=CDSD_3, regionid=3, text=Getting buttons information APAC, targetcomponentid=Watchdog, flavour=info
+23:46:19.927	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=addbutton, sendercomponentid=CDSD_3, index=0, name=LogOff, id=0, max=1
+23:46:19.928	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=addbutton, sendercomponentid=CDSD_3, index=1, name=KeyboardSetup, id=1, max=1
+23:46:19.928	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=addbutton, sendercomponentid=CDSD_3, index=2, name=StockWindow, id=2, max=100
+23:46:19.928	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=addbutton, sendercomponentid=CDSD_3, index=3, name=TimeOfSale, id=3, max=100
+23:46:19.928	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=addbutton, sendercomponentid=CDSD_3, index=4, name=HistoryLog, id=4, max=1
+23:46:19.928	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=addbutton, sendercomponentid=CDSD_3, index=5, name=TraderInfo, id=5, max=1
+23:46:19.928	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=addbutton, sendercomponentid=CDSD_3, index=6, name=ChartWindow, id=6, max=100
+23:46:19.928	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=addbutton, sendercomponentid=CDSD_3, index=7, name=SymbolsListEditor, id=7, max=1
+23:46:19.928	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=addbutton, sendercomponentid=CDSD_3, index=8, name=Summary, id=8, max=8
+23:46:19.928	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=addbutton, sendercomponentid=CDSD_3, index=9, name=OrderStatus, id=9, max=1
+23:46:19.928	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=addbutton, sendercomponentid=CDSD_3, index=10, name=OrderList, id=11, max=1
+23:46:19.929	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=addbutton, sendercomponentid=CDSD_3, index=11, name=ImbalanceLocator, id=13, max=8
+23:46:19.929	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=addbutton, sendercomponentid=CDSD_3, index=12, name=QuoteBoard, id=15, max=10
+23:46:19.929	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=addbutton, sendercomponentid=CDSD_3, index=13, name=Ticker, id=16, max=8
+23:46:19.930	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=addbutton, sendercomponentid=CDSD_3, index=14, name=BasketOrder, id=22, max=1
+23:46:19.930	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=addbutton, sendercomponentid=CDSD_3, index=15, name=LockUnlock, id=51, max=1
+23:46:19.930	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=addbutton, sendercomponentid=CDSD_3, index=16, name=SaveLayout, id=52, max=1
+23:46:19.930	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=status, sendercomponentid=CDSD_3, regionid=3, text=Finalizing login APAC, targetcomponentid=Watchdog, flavour=info
+23:46:19.930	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=status, sendercomponentid=CDSD_3, regionid=3, text=Connect to InitSrv for DataCentre APAC, targetcomponentid=Watchdog, flavour=info
+23:46:19.930	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=status, sendercomponentid=CDSD_3, regionid=3, text=Connect to Dispatcher APAC, targetcomponentid=Watchdog, flavour=info
+23:46:19.930	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=status, sendercomponentid=CDSD_3, regionid=3, text=Start RMC connections for APAC, targetcomponentid=Watchdog, flavour=info
+23:46:19.930	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=status, sendercomponentid=CDSD_3, regionid=3, text=Fetch snapshots for Region 3 ANDRECAR Equity, targetcomponentid=Watchdog, flavour=info
+23:46:19.930	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=logindata, sendercomponentid=CDSD_3, regionid=3, officeid=TNV, tradername=ANDRECAR
+23:46:19.930	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=layout, sendercomponentid=CDSD_3, regionid=3
+23:46:20.363	warn	4324	Summary_1	Cannot find a node in XmlAccess::GetXmlSubSection ExcludedTraders, Office -- I'm clearing the out_xmlSectionsContainer but the standard logic didn't... who's wrong??? :S
+23:46:20.363	warn	4324	Summary_1	Cannot find a node in XmlAccess::GetXmlSubSection , ExcludedOffice -- I'm clearing the out_xmlSectionsContainer but the standard logic didn't... who's wrong??? :S
+23:46:20.363	warn	4324	Summary_1	Cannot find a node in XmlAccess::GetXmlSubSection , LayerItem -- I'm clearing the out_xmlSectionsContainer but the standard logic didn't... who's wrong??? :S
+23:46:20.600	warn	5824	CDSD_3	SageMessage::GetField(MapperFields_e): fieldId=302('flavour') doesn't exist in ipmd message: ipmdtype=register, sendercomponentid=TimeOfSale_1, regionid=3, reservoirkey=9501.JP, reservoirtype=TOS, ipport=0, dump=1
+23:46:21.852	warn	5824	CDSD_3	SageMessage::GetField(MapperFields_e): fieldId=302('flavour') doesn't exist in ipmd message: ipmdtype=register, sendercomponentid=TimeOfSale_2, regionid=3, reservoirkey=9501.JP, reservoirtype=TOS, ipport=0, dump=1
+23:46:21.912	error	2796	Watchdog	Launcher::MonitorProcesses - StockWindow.exe StockWindow_1 has exited
+23:46:29.104	always	3932	StockWindow_1	Connected to logger daemon at version 61019
+23:46:29.104	always	3932	StockWindow_1	Component::ConnectToLoggerDaemon(): client branch version is Ruislip-1.3.1
+23:46:29.104	always	3932	StockWindow_1	Component::ConnectToLoggerDaemon(): IPMD API version is Ruislip
+23:46:29.614	warn	3932	StockWindow_1	using obsolete utils::SafeLexicalCast - please use ToNumeric or ToString template functions instead - called from (0), converting from '1'
+23:46:30.030	warn	3932	StockWindow_1	ColumnInstanceSet::SetTableReservoir(): Destination/Gateway/Side columns are not in catalog. ColumnCatalog needs extending
+23:46:30.177	warn	2476	StockWindow_1	using obsolete utils::SafeLexicalCast - please use ToNumeric or ToString template functions instead - called from (0), converting from '9501.JP'
+23:46:30.179	warn	2476	StockWindow_1	Level1Reservoir::CalculateUpDownTickAlgorithm() m_upDownTickAlgorithm value HACKED!
+23:46:30.353	warn	3932	StockWindow_1	SageMessage::GetField(MapperFields_e): fieldId=30('type') doesn't exist in ipmd message: ipmdtype=swostatupdate, sendercomponentid=StockWindow_1, text=
+23:46:30.353	warn	3932	StockWindow_1	SageMessage::GetField(MapperFields_e): fieldId=30('type') doesn't exist in ipmd message: ipmdtype=swostatupdate, text=
+23:46:30.666	warn	5824	CDSD_3	SageMessage::GetField(MapperFields_e): fieldId=302('flavour') doesn't exist in ipmd message: ipmdtype=register, sendercomponentid=StockWindow_1, regionid=3, reservoirkey=9501.JP, reservoirtype=L2, ipport=0, dump=1
+23:46:31.156	warn	5824	CDSD_3	SageMessage::GetField(MapperFields_e): fieldId=302('flavour') doesn't exist in ipmd message: ipmdtype=register, sendercomponentid=StockWindow_1, regionid=3, reservoirkey=9501.JP, reservoirtype=TOS, ipport=0, dump=1
+23:46:45.621	warn	5208	StockWindow_2	SageMessage::GetField(MapperFields_e): fieldId=30('type') doesn't exist in ipmd message: ipmdtype=swostatupdate, sendercomponentid=StockWindow_2, text=
+23:46:45.621	warn	5208	StockWindow_2	SageMessage::GetField(MapperFields_e): fieldId=30('type') doesn't exist in ipmd message: ipmdtype=swostatupdate, text=
+23:46:45.631	warn	1048	TimeOfSale_2	using obsolete utils::SafeLexicalCast - please use ToNumeric or ToString template functions instead - called from (0), converting from '2'
+23:46:45.636	warn	2480	TimeOfSale_1	using obsolete utils::SafeLexicalCast - please use ToNumeric or ToString template functions instead - called from (0), converting from '2'
+23:46:45.635	error	3908	TimeOfSale_2	ReservoirViews::RemoveView(): failed to find reservoir view, index 
+23:46:45.639	warn	2476	StockWindow_1	using obsolete utils::SafeLexicalCast - please use ToNumeric or ToString template functions instead - called from (0), converting from '2'
+23:46:45.649	warn	5824	CDSD_3	SageMessage::GetField(MapperFields_e): fieldId=302('flavour') doesn't exist in ipmd message: ipmdtype=deregister, sendercomponentid=StockWindow_2, regionid=3, reservoirkey=9501.JP, reservoirtype=TOS
+23:46:45.649	warn	5824	CDSD_3	SageMessage::GetField(MapperFields_e): fieldId=302('flavour') doesn't exist in ipmd message: ipmdtype=deregister, sendercomponentid=StockWindow_2, regionid=3, reservoirkey=9501.JP, reservoirtype=L2
+23:46:46.129	warn	5824	CDSD_3	SageMessage::GetField(MapperFields_e): fieldId=302('flavour') doesn't exist in ipmd message: ipmdtype=register, sendercomponentid=StockWindow_2, regionid=3, reservoirkey=9501/7203.JP, reservoirtype=L2, ipport=0, dump=1
+23:46:46.601	error	5824	CDSD_3	ReservoirManager::PopulateReservoirFromInitSrv LV2SnapshotPreQueen returned with successfully, but with no L2 data for LV2SnapshotPreQueen: symbol=9501/7203.JP, ISIN=
+23:46:46.601	warn	5824	CDSD_3	SageMessage::GetField(MapperFields_e): fieldId=302('flavour') doesn't exist in ipmd message: ipmdtype=deregister, sendercomponentid=TimeOfSale_2, regionid=3, reservoirkey=9501.JP, reservoirtype=TOS
+23:46:46.602	warn	5824	CDSD_3	SageMessage::GetField(MapperFields_e): fieldId=302('flavour') doesn't exist in ipmd message: ipmdtype=register, sendercomponentid=StockWindow_2, regionid=3, reservoirkey=9501/7203.JP, reservoirtype=TOS, ipport=0, dump=1
+23:46:47.545	warn	5824	CDSD_3	SageMessage::GetField(MapperFields_e): fieldId=302('flavour') doesn't exist in ipmd message: ipmdtype=register, sendercomponentid=TimeOfSale_2, regionid=3, reservoirkey=9501/7203.JP, reservoirtype=TOS, ipport=0, dump=1
+23:46:48.387	warn	5208	StockWindow_2	SageMessage::GetField(MapperFields_e): fieldId=30('type') doesn't exist in ipmd message: ipmdtype=swostatupdate, sendercomponentid=StockWindow_2, text=
+23:46:48.387	warn	5208	StockWindow_2	SageMessage::GetField(MapperFields_e): fieldId=30('type') doesn't exist in ipmd message: ipmdtype=swostatupdate, text=
+23:46:48.395	error	3908	TimeOfSale_2	ReservoirViews::RemoveView(): failed to find reservoir view, index 
+23:46:48.406	warn	5824	CDSD_3	SageMessage::GetField(MapperFields_e): fieldId=302('flavour') doesn't exist in ipmd message: ipmdtype=deregister, sendercomponentid=StockWindow_2, regionid=3, reservoirkey=9501-slash-7203.JP, reservoirtype=TOS
+23:46:48.406	warn	5824	CDSD_3	SageMessage::GetField(MapperFields_e): fieldId=302('flavour') doesn't exist in ipmd message: ipmdtype=deregister, sendercomponentid=StockWindow_2, regionid=3, reservoirkey=9501-slash-7203.JP, reservoirtype=L2
+23:46:48.877	warn	5824	CDSD_3	SageMessage::GetField(MapperFields_e): fieldId=302('flavour') doesn't exist in ipmd message: ipmdtype=register, sendercomponentid=StockWindow_2, regionid=3, reservoirkey=720.JP, reservoirtype=L2, ipport=0, dump=1
+23:46:49.349	error	5824	CDSD_3	ReservoirManager::PopulateReservoirFromInitSrv LV2SnapshotPreQueen returned with successfully, but with no L2 data for LV2SnapshotPreQueen: symbol=720.JP, ISIN=
+23:46:49.349	warn	5824	CDSD_3	SageMessage::GetField(MapperFields_e): fieldId=302('flavour') doesn't exist in ipmd message: ipmdtype=register, sendercomponentid=StockWindow_2, regionid=3, reservoirkey=720.JP, reservoirtype=TOS, ipport=0, dump=1
+23:46:49.821	warn	5824	CDSD_3	SageMessage::GetField(MapperFields_e): fieldId=302('flavour') doesn't exist in ipmd message: ipmdtype=deregister, sendercomponentid=TimeOfSale_2, regionid=3, reservoirkey=9501-slash-7203.JP, reservoirtype=TOS
+23:46:50.292	warn	5824	CDSD_3	SageMessage::GetField(MapperFields_e): fieldId=302('flavour') doesn't exist in ipmd message: ipmdtype=register, sendercomponentid=TimeOfSale_2, regionid=3, reservoirkey=720.JP, reservoirtype=TOS, ipport=0, dump=1
+23:46:52.177	warn	5208	StockWindow_2	SageMessage::GetField(MapperFields_e): fieldId=30('type') doesn't exist in ipmd message: ipmdtype=swostatupdate, sendercomponentid=StockWindow_2, text=
+23:46:52.177	warn	5208	StockWindow_2	SageMessage::GetField(MapperFields_e): fieldId=30('type') doesn't exist in ipmd message: ipmdtype=swostatupdate, text=
+23:46:52.186	error	3908	TimeOfSale_2	ReservoirViews::RemoveView(): failed to find reservoir view, index 
+23:46:52.204	warn	5824	CDSD_3	SageMessage::GetField(MapperFields_e): fieldId=302('flavour') doesn't exist in ipmd message: ipmdtype=deregister, sendercomponentid=StockWindow_2, regionid=3, reservoirkey=720.JP, reservoirtype=TOS
+23:46:52.204	warn	5824	CDSD_3	SageMessage::GetField(MapperFields_e): fieldId=302('flavour') doesn't exist in ipmd message: ipmdtype=deregister, sendercomponentid=StockWindow_2, regionid=3, reservoirkey=720.JP, reservoirtype=L2
+23:46:52.910	warn	5824	CDSD_3	SageMessage::GetField(MapperFields_e): fieldId=302('flavour') doesn't exist in ipmd message: ipmdtype=register, sendercomponentid=StockWindow_2, regionid=3, reservoirkey=7203.JP, reservoirtype=L2, ipport=0, dump=1
+23:46:53.402	warn	5824	CDSD_3	SageMessage::GetField(MapperFields_e): fieldId=302('flavour') doesn't exist in ipmd message: ipmdtype=register, sendercomponentid=StockWindow_2, regionid=3, reservoirkey=7203.JP, reservoirtype=TOS, ipport=0, dump=1
+23:46:53.882	warn	5824	CDSD_3	SageMessage::GetField(MapperFields_e): fieldId=302('flavour') doesn't exist in ipmd message: ipmdtype=deregister, sendercomponentid=TimeOfSale_2, regionid=3, reservoirkey=720.JP, reservoirtype=TOS
+23:46:54.353	warn	5824	CDSD_3	SageMessage::GetField(MapperFields_e): fieldId=302('flavour') doesn't exist in ipmd message: ipmdtype=register, sendercomponentid=TimeOfSale_2, regionid=3, reservoirkey=7203.JP, reservoirtype=TOS, ipport=0, dump=1
+23:47:24.553	warn	2996	PProApi	PProApiAction::GetHandler cannot find handler. Returning NULL. for ServerRequest :  RequestType=1, Fields={ }, Time=2014-Dec-17 23:47:24, URI=, Query=, Deadbeef=, RequestId=1, ValidRequest=1
+23:47:24.870	warn	4088	PProApi	PProApiAction::GetHandler cannot find handler. Returning NULL. for ServerRequest :  RequestType=0, Fields={ }, Time=2014-Dec-17 23:47:24, URI=favicon.ico, Query=, Deadbeef=, RequestId=2, ValidRequest=1
+23:53:40.375	warn	2756	PProApi	Level1Reservoir::CalculateUpDownTickAlgorithm() m_upDownTickAlgorithm value HACKED!
+23:53:40.526	warn	5736	PProApi	PProApiAction::GetHandler cannot find handler. Returning NULL. for ServerRequest :  RequestType=0, Fields={ }, Time=2014-Dec-17 23:53:40, URI=favicon.ico, Query=, Deadbeef=, RequestId=4, ValidRequest=1
+23:55:56.784	warn	4612	PProApi	PProApiAction::GetHandler cannot find handler. Returning NULL. for ServerRequest :  RequestType=0, Fields={ }, Time=2014-Dec-17 23:55:56, URI=favicon.ico, Query=, Deadbeef=, RequestId=6, ValidRequest=1
+00:02:22.487	error	4600	CDSD_3	Pinger::HandleTimeout Request timed out Region3
+00:06:24.189	warn	4576	CDSD_3	using obsolete utils::SafeLexicalCast - please use ToNumeric or ToString template functions instead - called from (0), converting from '13'
+00:06:24.190	warn	4576	CDSD_3	using obsolete utils::SafeLexicalCast - please use ToNumeric or ToString template functions instead - called from (0), converting from '2109'
+00:06:24.190	warn	4576	CDSD_3	using obsolete utils::SafeLexicalCast - please use ToNumeric or ToString template functions instead - called from (0), converting from 'B'
+00:06:24.205	warn	5508	HistoryLog_1	Level1Reservoir::CalculateUpDownTickAlgorithm() m_upDownTickAlgorithm value HACKED!
+00:06:24.220	warn	3932	StockWindow_1	SageMessage::GetField(MapperFields_e): fieldId=30('type') doesn't exist in ipmd message: ipmdtype=swostatupdate, text=Holding JAPN Buy 100@452 00:06:24.191 ANDRECAR02000001M3724C2100000
+00:06:24.221	warn	3932	StockWindow_1	SageMessage::GetField(MapperFields_e): fieldId=30('type') doesn't exist in ipmd message: ipmdtype=swostatupdate, text=Pending JAPN Buy 100@452 00:06:24.191 ANDRECAR02000001M3724C2100000
+00:06:24.272	warn	5224	PProApi	PProApiAction::GetHandler cannot find handler. Returning NULL. for ServerRequest :  RequestType=0, Fields={ }, Time=2014-Dec-18 00:06:24, URI=favicon.ico, Query=, Deadbeef=, RequestId=8, ValidRequest=1
+00:06:24.422	error	1060	CDSD_3	TableReservoir::GetMarketById(): failed to get market data for marketId=
+00:06:24.422	error	1060	CDSD_3	TableReservoir::GetCurrencyIsoCode() - can't find selected currency  
+00:06:24.422	error	1060	CDSD_3	TableReservoir::GetCurrencyIsoCode() - can't find selected currency 
+00:06:24.424	error	5508	HistoryLog_1	ExecutionLayer::Update(OrderStatusTxt): failed. No data in ReadOnlyShMem for traderId=ANDRECAR
+00:06:24.427	warn	3932	StockWindow_1	SageMessage::GetField(MapperFields_e): fieldId=30('type') doesn't exist in ipmd message: ipmdtype=swostatupdate, text=Pending JAPN Buy 100@452  ANDRECAR02000001M3724C2100000
+00:06:24.440	warn	3152	Summary_1	calling obsolete TraderOrderStatusName please use TraderAttributes::GetTraderStateNameFromId
+00:06:24.437	warn	3932	StockWindow_1	SageMessage::GetField(MapperFields_e): fieldId=30('type') doesn't exist in ipmd message: ipmdtype=swostatupdate, text=Accepted JAPN Buy 100@452 14:06:23.306 ANDRECAR02000001M3724C2100000
+00:06:24.438	warn	3932	StockWindow_1	SageMessage::GetField(MapperFields_e): fieldId=30('type') doesn't exist in ipmd message: ipmdtype=swostatupdate, text=Filled JAPN Buy 100@450 14:06:23.306 ANDRECAR02000001M3724C2100000
+00:06:24.441	error	5508	HistoryLog_1	ExecutionLayer::Update(OrderStatusTxt): failed. No data in ReadOnlyShMem for traderId=ANDRECAR
+00:06:24.442	warn	3152	Summary_1	Level1Reservoir::CalculateUpDownTickAlgorithm() m_upDownTickAlgorithm value HACKED!
+00:07:19.638	error	2840	PProApi	OrderNumber::OrderNumber(): failed. Invalid lenght=1 of the orderNumber=7
+00:07:19.862	warn	5776	PProApi	PProApiAction::GetHandler cannot find handler. Returning NULL. for ServerRequest :  RequestType=0, Fields={ }, Time=2014-Dec-18 00:07:19, URI=favicon.ico, Query=, Deadbeef=, RequestId=10, ValidRequest=1
+00:08:27.271	error	2996	PProApi	OrderNumber::OrderNumber(): failed. Invalid lenght=1 of the orderNumber=7
+00:08:27.271	error	2996	PProApi	ExecutionData::GetSimpleOrderState cannot locate reservoir for 7
+00:08:27.346	warn	4088	PProApi	PProApiAction::GetHandler cannot find handler. Returning NULL. for ServerRequest :  RequestType=0, Fields={ }, Time=2014-Dec-18 00:08:27, URI=favicon.ico, Query=, Deadbeef=, RequestId=12, ValidRequest=1
+00:09:06.102	warn	5736	PProApi	PProApiAction::GetHandler cannot find handler. Returning NULL. for ServerRequest :  RequestType=0, Fields={ }, Time=2014-Dec-18 00:09:06, URI=favicon.ico, Query=, Deadbeef=, RequestId=13, ValidRequest=1
+00:09:08.937	warn	5260	PProApi	PProApiAction::GetHandler cannot find handler. Returning NULL. for ServerRequest :  RequestType=0, Fields={ }, Time=2014-Dec-18 00:09:08, URI=favicon.ico, Query=, Deadbeef=, RequestId=14, ValidRequest=1
+00:14:41.425	error	4324	Summary_1	PositionLayer::CommonSetupFromTraderInfo(): failed to find data for traderId=ANDRECAR, regionId=3 in ReadOnlyShMem
+00:18:03.280	warn	5824	CDSD_3	SageMessage::GetField(MapperFields_e, vector): fieldId=7('reservoirtype') doesn't exist in ipmd message: ipmdtype=writelog, sendercomponentid=PProApi, regionid=3, reservoirkey=OSTAT_3, ipport=0, dump=4
+00:18:03.280	error	5824	CDSD_3	ReservoirType::ReservoirPrefix unknown type 0
+00:18:03.353	warn	5224	PProApi	PProApiAction::GetHandler cannot find handler. Returning NULL. for ServerRequest :  RequestType=0, Fields={ }, Time=2014-Dec-18 00:18:03, URI=favicon.ico, Query=, Deadbeef=, RequestId=16, ValidRequest=1
+00:19:31.448	warn	5824	CDSD_3	SageMessage::GetField(MapperFields_e, vector): fieldId=7('reservoirtype') doesn't exist in ipmd message: ipmdtype=writelog, sendercomponentid=PProApi, regionid=3, reservoirkey=PAPIORDER_3, ipport=0, dump=4
+00:19:31.448	error	5824	CDSD_3	ReservoirType::ReservoirPrefix unknown type 0
+00:19:31.552	warn	5776	PProApi	PProApiAction::GetHandler cannot find handler. Returning NULL. for ServerRequest :  RequestType=0, Fields={ }, Time=2014-Dec-18 00:19:31, URI=favicon.ico, Query=, Deadbeef=, RequestId=18, ValidRequest=1
+00:20:19.666	warn	4088	PProApi	PProApiAction::GetHandler cannot find handler. Returning NULL. for ServerRequest :  RequestType=0, Fields={ }, Time=2014-Dec-18 00:20:19, URI=favicon.ico, Query=, Deadbeef=, RequestId=20, ValidRequest=1
+00:20:39.747	warn	5736	PProApi	PProApiAction::GetHandler cannot find handler. Returning NULL. for ServerRequest :  RequestType=0, Fields={ }, Time=2014-Dec-18 00:20:39, URI=favicon.ico, Query=, Deadbeef=, RequestId=22, ValidRequest=1
+00:21:10.042	warn	4008	PProApi	PProApiAction::GetHandler cannot find handler. Returning NULL. for ServerRequest :  RequestType=0, Fields={ }, Time=2014-Dec-18 00:21:10, URI=favicon.ico, Query=, Deadbeef=, RequestId=24, ValidRequest=1
+00:21:43.709	warn	5816	IPMD	IpmDaemon::SendMessage Target component specified was 'none'.
+00:21:43.775	warn	2840	PProApi	PProApiAction::GetHandler cannot find handler. Returning NULL. for ServerRequest :  RequestType=0, Fields={ }, Time=2014-Dec-18 00:21:43, URI=favicon.ico, Query=, Deadbeef=, RequestId=26, ValidRequest=1
+00:21:43.952	warn	5816	IPMD	IpmDaemon::SendMessage Target component specified was 'none'.
+00:21:43.981	error	3152	Summary_1	PositionLayer::CommonSetupFromTraderInfo(): failed to find data for traderId=ANDRECAR, regionId=3 in ReadOnlyShMem
+00:21:43.982	error	5508	HistoryLog_1	SimpleOrderState::IsOrderClosed(): failed. Unhandled state=0
+00:21:43.982	error	5508	HistoryLog_1	SimpleOrderState::IsOrderClosed(): failed. Unhandled state=0
+00:21:43.984	error	5508	HistoryLog_1	ExecutionLayer::Update(OrderStatusTxt): failed. No data in ReadOnlyShMem for traderId=ANDRECAR
+00:21:43.984	error	5508	HistoryLog_1	ExecutionLayer::Update(OrderStatusTxt): failed. No data in ReadOnlyShMem for traderId=ANDRECAR
+00:21:43.985	warn	3932	StockWindow_1	SageMessage::GetField(MapperFields_e): fieldId=30('type') doesn't exist in ipmd message: ipmdtype=swostatupdate, text=Pending JAPN Sell 100@441  ANDRECAR00000000U3724C2100003
+00:21:43.985	warn	3932	StockWindow_1	SageMessage::GetField(MapperFields_e): fieldId=30('type') doesn't exist in ipmd message: ipmdtype=swostatupdate, text=Accepted JAPN Sell 100@441 14:21:43.881 ANDRECAR00000000U3724C2100003
+00:21:43.985	warn	3932	StockWindow_1	SageMessage::GetField(MapperFields_e): fieldId=30('type') doesn't exist in ipmd message: ipmdtype=swostatupdate, text=Filled JAPN Sell 100@460 14:21:43.882 ANDRECAR00000000U3724C2100003
+00:21:43.995	error	5832	HistoryLog_1	HistoryLogTable::GetActivityLogTableRowColors(): failed. Invalid gatewayName=''
+00:24:11.878	warn	4536	CDSD_3	ClientRmc::SendNackPkt NACK packet sent, sequence number: 54646, FeedRegion3
+00:27:16.900	warn	4536	CDSD_3	ClientRmc::SendNackPkt NACK packet sent, sequence number: 57159, FeedRegion3
+00:30:43.441	warn	2996	PProApi	PProApiAction::GetHandler cannot find handler. Returning NULL. for ServerRequest :  RequestType=0, Fields={ }, Time=2014-Dec-18 00:30:43, URI=favicon.ico, Query=, Deadbeef=, RequestId=28, ValidRequest=1
+00:34:27.471	error	4600	CDSD_3	Pinger::HandleTimeout Request timed out Region3
+00:36:10.562	warn	4088	PProApi	PProApiAction::GetHandler cannot find handler. Returning NULL. for ServerRequest :  RequestType=0, Fields={ }, Time=2014-Dec-18 00:36:10, URI=favicon.ico, Query=, Deadbeef=, RequestId=29, ValidRequest=1
+00:36:18.619	warn	5736	PProApi	PProApiAction::GetHandler cannot find handler. Returning NULL. for ServerRequest :  RequestType=0, Fields={ }, Time=2014-Dec-18 00:36:18, URI=favicon.ico, Query=, Deadbeef=, RequestId=31, ValidRequest=1
+00:37:16.707	warn	4612	PProApi	PProApiAction::GetHandler cannot find handler. Returning NULL. for ServerRequest :  RequestType=0, Fields={ }, Time=2014-Dec-18 00:37:16, URI=favicon.ico, Query=, Deadbeef=, RequestId=33, ValidRequest=1
+00:38:13.459	warn	3932	StockWindow_1	SageMessage::GetField(MapperFields_e): fieldId=30('type') doesn't exist in ipmd message: ipmdtype=swostatupdate, text=Holding JAPN Buy 100@455 00:38:13.446 ANDRECAR02000002M3724C2100000
+00:38:13.459	warn	3932	StockWindow_1	SageMessage::GetField(MapperFields_e): fieldId=30('type') doesn't exist in ipmd message: ipmdtype=swostatupdate, text=Pending JAPN Buy 100@455 00:38:13.446 ANDRECAR02000002M3724C2100000
+00:38:13.479	warn	5224	PProApi	PProApiAction::GetHandler cannot find handler. Returning NULL. for ServerRequest :  RequestType=0, Fields={ }, Time=2014-Dec-18 00:38:13, URI=favicon.ico, Query=, Deadbeef=, RequestId=35, ValidRequest=1
+00:38:13.690	error	5508	HistoryLog_1	ExecutionLayer::Update(OrderStatusTxt): failed. No data in ReadOnlyShMem for traderId=ANDRECAR
+00:38:13.698	warn	3932	StockWindow_1	SageMessage::GetField(MapperFields_e): fieldId=30('type') doesn't exist in ipmd message: ipmdtype=swostatupdate, text=Pending JAPN Buy 100@455  ANDRECAR02000002M3724C2100000
+00:38:13.698	warn	3932	StockWindow_1	SageMessage::GetField(MapperFields_e): fieldId=30('type') doesn't exist in ipmd message: ipmdtype=swostatupdate, text=Accepted JAPN Buy 100@455 14:38:12.606 ANDRECAR02000002M3724C2100000
+00:38:29.267	warn	5776	PProApi	PProApiAction::GetHandler cannot find handler. Returning NULL. for ServerRequest :  RequestType=0, Fields={ }, Time=2014-Dec-18 00:38:29, URI=favicon.ico, Query=, Deadbeef=, RequestId=37, ValidRequest=1
+00:38:42.177	warn	3272	PProApi	PProApiAction::GetHandler cannot find handler. Returning NULL. for ServerRequest :  RequestType=0, Fields={ }, Time=2014-Dec-18 00:38:42, URI=favicon.ico, Query=, Deadbeef=, RequestId=39, ValidRequest=1
+00:39:09.757	warn	4612	PProApi	PProApiAction::GetHandler cannot find handler. Returning NULL. for ServerRequest :  RequestType=0, Fields={ }, Time=2014-Dec-18 00:39:09, URI=favicon.ico, Query=, Deadbeef=, RequestId=41, ValidRequest=1
+00:39:28.678	warn	5224	PProApi	PProApiAction::GetHandler cannot find handler. Returning NULL. for ServerRequest :  RequestType=0, Fields={ }, Time=2014-Dec-18 00:39:28, URI=favicon.ico, Query=, Deadbeef=, RequestId=43, ValidRequest=1
+00:40:31.722	error	5536	CDSD_2	TableReservoir::MarketExtensionToId() - can't find marketExtension=JP
+00:40:31.722	warn	4576	CDSD_3	SageMessage::GetField(MapperFields_e): fieldId=63('keystroke') doesn't exist in ipmd message: ipmdtype=ordercancel, sendercomponentid=PProApi, symbol=9501.JP, type=2, side=1
+00:40:31.722	error	5504	CDSD_1	TableReservoir::MarketExtensionToId() - can't find marketExtension=JP
+00:40:31.775	warn	5508	HistoryLog_1	using obsolete utils::SafeLexicalCast - please use ToNumeric or ToString template functions instead - called from (0), converting from '11'
+00:40:31.853	warn	2996	PProApi	PProApiAction::GetHandler cannot find handler. Returning NULL. for ServerRequest :  RequestType=0, Fields={ }, Time=2014-Dec-18 00:40:31, URI=favicon.ico, Query=, Deadbeef=, RequestId=45, ValidRequest=1
+00:40:32.030	warn	1060	CDSD_3	ReservoirMapOfRecords::RemoveRecordFromMapReservoir(): reservoir 'SCRIPT_BLOTTER_3_2014-12-17_23-45-51_15', failed to find key=ANDRECAR02000003S3724C2100000
+00:40:32.031	error	5508	HistoryLog_1	TableReservoir::GetMarketById(): failed to get market data for marketId= 
+00:40:32.031	error	5508	HistoryLog_1	utils::SplitFullSymbol(): failed to find 2 character extension after '.' in '.'
+00:40:32.031	error	5508	HistoryLog_1	TableReservoir::GetMarketBySymbol(): Cannot find 2 character extension after '.' in '.'
+00:40:32.032	error	5508	HistoryLog_1	TableReservoir::GetDestinationName() - can't find destinationId=0 for gatewayId=0
+00:40:32.032	error	5508	HistoryLog_1	TableReservoir::GetGatewayName() - can't find gatewayId=0
+00:40:32.032	error	5508	HistoryLog_1	ExecutionLayer::Update(OrderStatusTxt): failed. No data in ReadOnlyShMem for traderId=ANDRECAR
+00:40:32.033	warn	5508	HistoryLog_1	ReservoirViews::HandleRegistrationQueue() cannot determine region, discarding request ipmdtype=deregister, sendercomponentid=HistoryLog_1, regionid=0, reservoirtype=L1, symbol=., flavour=feed
+00:40:32.040	warn	3932	StockWindow_1	SageMessage::GetField(MapperFields_e): fieldId=30('type') doesn't exist in ipmd message: ipmdtype=swostatupdate, text=Pending JAPN Buy 100  ANDRECAR02000002M3724C2100000
+00:40:32.043	error	5508	HistoryLog_1	ExecutionLayer::Update(OrderStatusTxt): failed. No data in ReadOnlyShMem for traderId=ANDRECAR
+00:40:32.050	warn	3932	StockWindow_1	SageMessage::GetField(MapperFields_e): fieldId=30('type') doesn't exist in ipmd message: ipmdtype=swostatupdate, text=Pending JAPN Buy 14:40:31.964 ANDRECAR02000002M3724C2100000
+00:40:32.060	warn	3932	StockWindow_1	SageMessage::GetField(MapperFields_e): fieldId=30('type') doesn't exist in ipmd message: ipmdtype=swostatupdate, text=Cancelled JAPN Buy@455 14:40:31.964 ANDRECAR02000002M3724C2100000
+00:40:44.074	warn	3272	PProApi	PProApiAction::GetHandler cannot find handler. Returning NULL. for ServerRequest :  RequestType=0, Fields={ }, Time=2014-Dec-18 00:40:44, URI=favicon.ico, Query=, Deadbeef=, RequestId=47, ValidRequest=1
+00:52:00.095	warn	4536	CDSD_3	ClientRmc::SendNackPkt NACK packet sent, sequence number: 74870, FeedRegion3
+01:04:39.484	warn	5832	HistoryLog_1	Cannot find a node in XmlAccess::GetXmlSubSection , Columns -- I'm clearing the out_xmlSectionsContainer but the standard logic didn't... who's wrong??? :S
+01:04:39.484	error	5832	HistoryLog_1	utils::ToNumeric(): failed converting from '' exception: bad lexical cast: source type value could not be interpreted as target
+01:04:39.484	warn	5832	HistoryLog_1	Cannot find a node in XmlAccess::GetXmlSubSection , ColumnsView -- I'm clearing the out_xmlSectionsContainer but the standard logic didn't... who's wrong??? :S
+01:04:39.485	warn	5832	HistoryLog_1	Cannot find a node in XmlAccess::GetXmlSubSection , Limit -- I'm clearing the out_xmlSectionsContainer but the standard logic didn't... who's wrong??? :S
+01:04:39.485	warn	5832	HistoryLog_1	Cannot find a node in XmlAccess::GetXmlSubSection , Stop -- I'm clearing the out_xmlSectionsContainer but the standard logic didn't... who's wrong??? :S
+01:04:39.485	warn	5832	HistoryLog_1	Cannot find a node in XmlAccess::GetXmlSubSection , Activity -- I'm clearing the out_xmlSectionsContainer but the standard logic didn't... who's wrong??? :S
+01:04:39.485	warn	5832	HistoryLog_1	Cannot find a node in XmlAccess::GetXmlSubSection , Color -- I'm clearing the out_xmlSectionsContainer but the standard logic didn't... who's wrong??? :S
+01:04:39.485	warn	5832	HistoryLog_1	Cannot find a node in XmlAccess::GetXmlSubSection , Color -- I'm clearing the out_xmlSectionsContainer but the standard logic didn't... who's wrong??? :S
+01:04:39.501	warn	4324	Summary_1	Cannot find a node in XmlAccess::GetXmlSubSection ExcludedTraders, Office -- I'm clearing the out_xmlSectionsContainer but the standard logic didn't... who's wrong??? :S
+01:04:39.501	warn	4324	Summary_1	Cannot find a node in XmlAccess::GetXmlSubSection , ExcludedOffice -- I'm clearing the out_xmlSectionsContainer but the standard logic didn't... who's wrong??? :S
+01:04:39.501	warn	4324	Summary_1	Cannot find a node in XmlAccess::GetXmlSubSection , LayerItem -- I'm clearing the out_xmlSectionsContainer but the standard logic didn't... who's wrong??? :S
+01:04:39.518	warn	3660	Messages	QSageApplication::SaveColumnWidths() Not implemented by child
+01:04:39.577	error	4576	CDSD_3	DataCentre::HandleMessage(): failed. Unhandled messageType=154, message={ipmdtype=logout, sendercomponentid=Watchdog, regionid=all}
+01:04:39.577	error	5504	CDSD_1	DataCentre::HandleMessage(): failed. Unhandled messageType=154, message={ipmdtype=logout, sendercomponentid=Watchdog, regionid=all}
+01:04:39.577	error	5536	CDSD_2	DataCentre::HandleMessage(): failed. Unhandled messageType=154, message={ipmdtype=logout, sendercomponentid=Watchdog, regionid=all}
+01:04:39.580	error	3344	Watchdog	instanceID format error: PProApi
+01:04:39.606	error	5504	CDSD_1	XmlAccess::SaveXml() SaveFile failed.
+01:04:39.606	error	5504	CDSD_1	TcpSocket::ReadAll exception End of file
+01:04:39.606	error	5504	CDSD_1	SerComm::Load, inbound_data_size, throwing empty std::exception.
+01:04:39.606	error	5504	CDSD_1	SerComm::Read Exception on LoadUnknown exception
+01:04:39.606	error	5504	CDSD_1	TcpClient::SendRequest failed on OPC-R1-NCSA(10.88.200.115:5011) with std::exception: Unknown exception
+01:04:39.606	warn	5504	CDSD_1	OpcClientConnection::SendDispatcherMessage : No connection to Dispatcher OPC-R1-NCSA
+01:04:39.611	error	5536	CDSD_2	XmlAccess::SaveXml() SaveFile failed.
+01:04:39.621	error	5504	CDSD_1	TcpSocket::ReadAll exception End of file
+01:04:39.621	error	5504	CDSD_1	SerComm::Load, inbound_data_size, throwing empty std::exception.
+01:04:39.621	error	5504	CDSD_1	SerComm::Read Exception on LoadUnknown exception
+01:04:39.621	error	5504	CDSD_1	TcpClient::SendRequest failed on InitSrv-R1(10.88.200.115:5011) with std::exception: Unknown exception
+01:04:39.621	warn	5504	CDSD_1	InitSrvClient::HandleInitSrvCommunication - Connection to Dispatcher failed InitializationPreQueen: messageId=17, symbol=*, end=, maxTimeSpanSeconds=0, maxRecordsCount=0, alertReg=[ messageId=255, clientType=255, trader=, opcId=65535, sessionNumber=255, alertIndex=4294967295, ipAddress=4294967295, isLittleEndian=1, messageType=255, interval=10, lastSentTS=0, symbol=, rangemin=-9223372036854775807, rangeMax=9223372036854775807, rangeType=255, open=9223372036854775807, high=9223372036854775807, low=9223372036854775807, deregisterAlertType=0 ]
+01:04:39.636	error	5504	CDSD_1	ShutdownDeregistrationCheck() Unexpected InitSrv response , got response=0
+01:04:39.637	warn	2248	CDSD_1	SocketBase::CheckError McSocket::read error - , A blocking operation was interrupted by a call to WSACancelBlockingCall
+01:04:39.637	error	2248	CDSD_1	Receiver::run Read std::exception Unknown exception
+01:04:39.637	warn	2248	CDSD_1	Receiver::run - Exception caught, and handled. Not running, so stop processing RMC connection for MulticastConfig 'FeedRegion1' Group=224.11.80.1:2013 Client=10.29.10.205(unihomed) TTL=5 BufferSize=16960 NackType=Weak, RegionId=1
+01:04:39.638	warn	5076	CDSD_1	SocketBase::CheckError McSocket::read error - , A blocking operation was interrupted by a call to WSACancelBlockingCall
+01:04:39.638	error	5076	CDSD_1	Receiver::run Read std::exception Unknown exception
+01:04:39.638	warn	5076	CDSD_1	Receiver::run - Exception caught, and handled. Not running, so stop processing RMC connection for MulticastConfig 'OsmRegion1' Group=224.11.80.3:2014 Client=10.29.10.205(unihomed) TTL=5 BufferSize=16960 NackType=Ostat, RegionId=0
+01:04:39.639	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=status, sendercomponentid=CDSD_2, regionid=2, text=Disconnecting from servers... EMEA, targetcomponentid=Watchdog, flavour=info
+01:04:39.639	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=status, sendercomponentid=CDSD_3, regionid=3, text=Disconnecting from servers... APAC, targetcomponentid=Watchdog, flavour=info
+01:04:39.639	warn	2796	Watchdog	GridButtons::ProcessMessage unexpected message ipmdtype=status, sendercomponentid=CDSD_1, regionid=1, text=Disconnecting from servers... NCSA, targetcomponentid=Watchdog, flavour=info
+01:04:39.653	always	5504	CDSD_1	ConnectionServerClient::Connect() succeeded on 10.88.200.115:5102
+01:04:39.788	warn	2648	CDSD_2	SocketBase::CheckError McSocket::read error - , A blocking operation was interrupted by a call to WSACancelBlockingCall
+01:04:39.788	error	2648	CDSD_2	Receiver::run Read std::exception Unknown exception
+01:04:39.788	warn	2648	CDSD_2	Receiver::run - Exception caught, and handled. Not running, so stop processing RMC connection for MulticastConfig 'FeedRegion2' Group=224.11.80.5:2013 Client=10.29.10.205(unihomed) TTL=5 BufferSize=16960 NackType=Weak, RegionId=2
+01:04:39.788	warn	4208	CDSD_2	SocketBase::CheckError McSocket::read error - , A blocking operation was interrupted by a call to WSACancelBlockingCall
+01:04:39.788	error	4208	CDSD_2	Receiver::run Read std::exception Unknown exception
+01:04:39.789	warn	4208	CDSD_2	Receiver::run - Exception caught, and handled. Not running, so stop processing RMC connection for MulticastConfig 'OsmRegion2' Group=224.11.80.7:2014 Client=10.29.10.205(unihomed) TTL=5 BufferSize=16960 NackType=Ostat, RegionId=0
+01:04:39.879	always	5536	CDSD_2	ConnectionServerClient::Connect() succeeded on 10.68.200.37:5102
+01:04:40.098	warn	5668	CDSD_3	SocketBase::CheckError McSocket::read error - , A blocking operation was interrupted by a call to WSACancelBlockingCall
+01:04:40.099	error	5668	CDSD_3	Receiver::run Read std::exception Unknown exception
+01:04:40.099	warn	5668	CDSD_3	Receiver::run - Exception caught, and handled. Not running, so stop processing RMC connection for MulticastConfig 'FeedRegion3' Group=224.11.80.9:2013 Client=10.29.10.205(unihomed) TTL=5 BufferSize=16960 NackType=Weak, RegionId=3
+01:04:40.099	warn	5640	CDSD_3	SocketBase::CheckError McSocket::read error - , A blocking operation was interrupted by a call to WSACancelBlockingCall
+01:04:40.099	error	5640	CDSD_3	Receiver::run Read std::exception Unknown exception
+01:04:40.099	warn	5640	CDSD_3	Receiver::run - Exception caught, and handled. Not running, so stop processing RMC connection for MulticastConfig 'OsmRegion3' Group=224.11.80.11:2014 Client=10.29.10.205(unihomed) TTL=5 BufferSize=16960 NackType=Ostat, RegionId=0
+01:04:40.334	always	4576	CDSD_3	ConnectionServerClient::Connect() succeeded on 10.78.10.19:5101
+01:04:40.395	error	3344	Watchdog	can't find name for appcode:CDSD_
+01:04:40.595	error	3344	Watchdog	can't find name for appcode:CDSD_
+01:04:40.606	error	5816	IPMD	IpmDaemon::SendMessage Couldn't find a target component
+01:04:40.629	error	5816	IPMD	IpmDaemon::SendMessage Couldn't find a target component
+01:04:40.630	error	5816	IPMD	IpmDaemon::SendMessage Couldn't find a target component
+01:04:40.631	error	5816	IPMD	IpmDaemon::SendMessage Couldn't find a target component
+01:04:40.633	error	5816	IPMD	IpmDaemon::SendMessage Couldn't find a target component
+01:04:40.690	warn	2476	StockWindow_1	ClientConnection::Shutdown cannot remove disk queue, terminating application anyway
+01:04:40.717	warn	3928	Messages	ClientConnection::Shutdown cannot remove disk queue, terminating application anyway
+01:04:40.905	warn	4576	CDSD_3	TcpClient::Disconnect failed. NULL socket
+01:04:40.905	warn	4576	CDSD_3	TcpClient::Disconnect failed. NULL socket
+01:04:40.920	error	3344	Watchdog	can't find name for appcode:CDSD_
+01:04:40.931	error	5816	IPMD	IpmDaemon::SendMessage Couldn't find a target component

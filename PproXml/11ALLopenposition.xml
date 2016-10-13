@@ -1,0 +1,13 @@
+<!--http://localhost:8080/GetOpenPositions?user=ANDRECAR-->
+<Response>
+<Content>
+<Trader id="ANDRECAR">
+<Region id="1"/>
+<Region id="2"/>
+<Region id="3">
+<Position Symbol="7203" Market="JP" AssetClass="Equity" Volume="100" Side="B" Account="3TRUENV001TNVANDRECARJPY1"/>
+<Position Symbol="9501" Market="JP" AssetClass="Equity" Volume="-100" Side="S" Account="3TRUENV001TNVANDRECARJPY1"/>
+</Region>
+</Trader>
+</Content>
+</Response>

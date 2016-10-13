@@ -1,0 +1,10 @@
+<!--http://localhost:8080/GetOpenOrders?user=ANDRECAR-->
+<Response>
+<Content>
+<Orders>
+<Order id="ANDRECAR01000007M373078100000" state="3" description="Accepted" openSize="100" fillCount="0"/>
+<Order id="ANDRECAR01000008M373078100000" state="3" description="Accepted" openSize="100" fillCount="0"/>
+<Order id="ANDRECAR01000009M373078100000" state="3" description="Accepted" openSize="100" fillCount="0"/>
+</Orders>
+</Content>
+</Response>

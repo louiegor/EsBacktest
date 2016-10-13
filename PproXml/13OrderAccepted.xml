@@ -1,0 +1,6 @@
+<!--http://localhost:8080/GetOrderState?ordernumber=ANDRECAR01000007M373078100000-->
+<Response>
+<Content>
+<OrderState state="3" description="Accepted" fillCount="0"/>
+</Content>
+</Response>

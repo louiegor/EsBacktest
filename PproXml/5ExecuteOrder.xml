@@ -1,0 +1,3 @@
+
+<!--http://localhost:8080/ExecuteOrder?symbol=9501.JP&limitprice=452&ordername=JAPN%20Buy%20TSE%20Limit%20DAY&shares=100-->
+<Response><Content>7</Content></Response>
