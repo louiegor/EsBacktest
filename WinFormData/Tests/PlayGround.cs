@@ -6,7 +6,6 @@ using System.Globalization;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Threading;
-using System.XmlHelper;
 using Microsoft.VisualBasic.FileIO;
 using NUnit.Framework;
 using System.Net;

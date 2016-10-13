@@ -8,7 +8,6 @@ using System.Linq;
 using System.Reflection;
 using System.Threading;
 using System.Windows.Forms;
-using System.XmlHelper;
 using Autofac;
 using WinFormData.Tests;
 using IContainer = Autofac.IContainer;
