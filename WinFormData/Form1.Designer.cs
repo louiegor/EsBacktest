@@ -52,8 +52,21 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.numStock = new System.Windows.Forms.TextBox();
+            this.discardGrid = new System.Windows.Forms.DataGridView();
+            this.label5 = new System.Windows.Forms.Label();
+            this.IsFilter = new System.Windows.Forms.CheckBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.ProfitFilter = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.WinRatioFilter = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.FilteredProfit = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.FilterNumStock = new System.Windows.Forms.TextBox();
+            this.InstructionTextBox = new System.Windows.Forms.RichTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.Lv1PositionGrid)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numOfRetries)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.discardGrid)).BeginInit();
             this.SuspendLayout();
             // 
             // label2
@@ -61,9 +74,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(11, 9);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 13);
+            this.label2.Size = new System.Drawing.Size(32, 13);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Position";
+            this.label2.Text = "Keep";
             // 
             // timer1
             // 
@@ -73,7 +86,7 @@
             // 
             // startButton
             // 
-            this.startButton.Location = new System.Drawing.Point(652, 540);
+            this.startButton.Location = new System.Drawing.Point(652, 706);
             this.startButton.Name = "startButton";
             this.startButton.Size = new System.Drawing.Size(75, 23);
             this.startButton.TabIndex = 4;
@@ -83,7 +96,7 @@
             // 
             // stopButton
             // 
-            this.stopButton.Location = new System.Drawing.Point(731, 540);
+            this.stopButton.Location = new System.Drawing.Point(731, 706);
             this.stopButton.Name = "stopButton";
             this.stopButton.Size = new System.Drawing.Size(75, 23);
             this.stopButton.TabIndex = 5;
@@ -93,16 +106,16 @@
             // 
             // statusTextBox
             // 
-            this.statusTextBox.Location = new System.Drawing.Point(438, 337);
+            this.statusTextBox.Location = new System.Drawing.Point(563, 503);
             this.statusTextBox.Name = "statusTextBox";
-            this.statusTextBox.Size = new System.Drawing.Size(370, 197);
+            this.statusTextBox.Size = new System.Drawing.Size(245, 197);
             this.statusTextBox.TabIndex = 6;
             this.statusTextBox.Text = "";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(435, 321);
+            this.label3.Location = new System.Drawing.Point(563, 487);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(37, 13);
             this.label3.TabIndex = 7;
@@ -111,7 +124,7 @@
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(33, 324);
+            this.label21.Location = new System.Drawing.Point(31, 586);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(49, 13);
             this.label21.TabIndex = 8;
@@ -120,7 +133,7 @@
             // label42
             // 
             this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(11, 351);
+            this.label42.Location = new System.Drawing.Point(9, 613);
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(71, 13);
             this.label42.TabIndex = 9;
@@ -128,7 +141,7 @@
             // 
             // traderId
             // 
-            this.traderId.Location = new System.Drawing.Point(88, 321);
+            this.traderId.Location = new System.Drawing.Point(86, 583);
             this.traderId.Name = "traderId";
             this.traderId.Size = new System.Drawing.Size(294, 20);
             this.traderId.TabIndex = 10;
@@ -136,7 +149,7 @@
             // 
             // eSignalOutputPath
             // 
-            this.eSignalOutputPath.Location = new System.Drawing.Point(88, 348);
+            this.eSignalOutputPath.Location = new System.Drawing.Point(86, 610);
             this.eSignalOutputPath.Name = "eSignalOutputPath";
             this.eSignalOutputPath.Size = new System.Drawing.Size(294, 20);
             this.eSignalOutputPath.TabIndex = 11;
@@ -144,7 +157,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(24, 403);
+            this.label4.Location = new System.Drawing.Point(22, 665);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(58, 13);
             this.label4.TabIndex = 12;
@@ -152,7 +165,7 @@
             // 
             // univShareSize
             // 
-            this.univShareSize.Location = new System.Drawing.Point(88, 400);
+            this.univShareSize.Location = new System.Drawing.Point(86, 662);
             this.univShareSize.Name = "univShareSize";
             this.univShareSize.Size = new System.Drawing.Size(294, 20);
             this.univShareSize.TabIndex = 13;
@@ -160,7 +173,7 @@
             // 
             // pproPath
             // 
-            this.pproPath.Location = new System.Drawing.Point(88, 374);
+            this.pproPath.Location = new System.Drawing.Point(86, 636);
             this.pproPath.Name = "pproPath";
             this.pproPath.Size = new System.Drawing.Size(294, 20);
             this.pproPath.TabIndex = 16;
@@ -169,7 +182,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(24, 377);
+            this.label7.Location = new System.Drawing.Point(22, 639);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(54, 13);
             this.label7.TabIndex = 15;
@@ -187,7 +200,7 @@
             this.Lv1PositionGrid.ReadOnly = true;
             this.Lv1PositionGrid.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.Lv1PositionGrid.RowHeadersVisible = false;
-            this.Lv1PositionGrid.Size = new System.Drawing.Size(545, 282);
+            this.Lv1PositionGrid.Size = new System.Drawing.Size(545, 247);
             this.Lv1PositionGrid.TabIndex = 17;
             // 
             // PassiveCheckBox
@@ -195,7 +208,7 @@
             this.PassiveCheckBox.AutoSize = true;
             this.PassiveCheckBox.Checked = true;
             this.PassiveCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.PassiveCheckBox.Location = new System.Drawing.Point(123, 451);
+            this.PassiveCheckBox.Location = new System.Drawing.Point(121, 713);
             this.PassiveCheckBox.Name = "PassiveCheckBox";
             this.PassiveCheckBox.Size = new System.Drawing.Size(63, 17);
             this.PassiveCheckBox.TabIndex = 18;
@@ -206,7 +219,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(24, 427);
+            this.label1.Location = new System.Drawing.Point(22, 689);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(103, 13);
             this.label1.TabIndex = 20;
@@ -214,7 +227,7 @@
             // 
             // numOfRetries
             // 
-            this.numOfRetries.Location = new System.Drawing.Point(141, 425);
+            this.numOfRetries.Location = new System.Drawing.Point(139, 687);
             this.numOfRetries.Name = "numOfRetries";
             this.numOfRetries.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.numOfRetries.Size = new System.Drawing.Size(120, 20);
@@ -228,7 +241,7 @@
             // isTms
             // 
             this.isTms.AutoSize = true;
-            this.isTms.Location = new System.Drawing.Point(27, 451);
+            this.isTms.Location = new System.Drawing.Point(25, 713);
             this.isTms.Name = "isTms";
             this.isTms.Size = new System.Drawing.Size(49, 17);
             this.isTms.TabIndex = 22;
@@ -268,11 +281,138 @@
             this.numStock.Size = new System.Drawing.Size(100, 20);
             this.numStock.TabIndex = 27;
             // 
+            // discardGrid
+            // 
+            this.discardGrid.AllowUserToAddRows = false;
+            this.discardGrid.AllowUserToDeleteRows = false;
+            this.discardGrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.discardGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
+            this.discardGrid.Location = new System.Drawing.Point(12, 302);
+            this.discardGrid.MultiSelect = false;
+            this.discardGrid.Name = "discardGrid";
+            this.discardGrid.ReadOnly = true;
+            this.discardGrid.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            this.discardGrid.RowHeadersVisible = false;
+            this.discardGrid.Size = new System.Drawing.Size(545, 257);
+            this.discardGrid.TabIndex = 30;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(11, 286);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(43, 13);
+            this.label5.TabIndex = 29;
+            this.label5.Text = "Discard";
+            // 
+            // IsFilter
+            // 
+            this.IsFilter.AutoSize = true;
+            this.IsFilter.Checked = true;
+            this.IsFilter.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.IsFilter.Location = new System.Drawing.Point(566, 138);
+            this.IsFilter.Name = "IsFilter";
+            this.IsFilter.Size = new System.Drawing.Size(48, 17);
+            this.IsFilter.TabIndex = 31;
+            this.IsFilter.Text = "Filter";
+            this.IsFilter.UseVisualStyleBackColor = true;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(563, 216);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(113, 13);
+            this.label9.TabIndex = 35;
+            this.label9.Text = "Profit above % to price";
+            // 
+            // ProfitFilter
+            // 
+            this.ProfitFilter.Location = new System.Drawing.Point(563, 232);
+            this.ProfitFilter.Name = "ProfitFilter";
+            this.ProfitFilter.Size = new System.Drawing.Size(100, 20);
+            this.ProfitFilter.TabIndex = 34;
+            this.ProfitFilter.Text = "5";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(563, 167);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(93, 13);
+            this.label10.TabIndex = 33;
+            this.label10.Text = "Win ratio above %";
+            // 
+            // WinRatioFilter
+            // 
+            this.WinRatioFilter.Location = new System.Drawing.Point(563, 183);
+            this.WinRatioFilter.Name = "WinRatioFilter";
+            this.WinRatioFilter.Size = new System.Drawing.Size(100, 20);
+            this.WinRatioFilter.TabIndex = 32;
+            this.WinRatioFilter.Text = "50";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(563, 268);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(77, 13);
+            this.label11.TabIndex = 37;
+            this.label11.Text = "Profit after filter";
+            // 
+            // FilteredProfit
+            // 
+            this.FilteredProfit.Location = new System.Drawing.Point(563, 284);
+            this.FilteredProfit.Name = "FilteredProfit";
+            this.FilteredProfit.ReadOnly = true;
+            this.FilteredProfit.Size = new System.Drawing.Size(100, 20);
+            this.FilteredProfit.TabIndex = 36;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(563, 316);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(102, 13);
+            this.label12.TabIndex = 39;
+            this.label12.Text = "Filter Total # Stocks";
+            // 
+            // FilterNumStock
+            // 
+            this.FilterNumStock.Location = new System.Drawing.Point(563, 332);
+            this.FilterNumStock.Name = "FilterNumStock";
+            this.FilterNumStock.ReadOnly = true;
+            this.FilterNumStock.Size = new System.Drawing.Size(100, 20);
+            this.FilterNumStock.TabIndex = 38;
+            // 
+            // InstructionTextBox
+            // 
+            this.InstructionTextBox.BackColor = System.Drawing.Color.MistyRose;
+            this.InstructionTextBox.Location = new System.Drawing.Point(566, 374);
+            this.InstructionTextBox.Name = "InstructionTextBox";
+            this.InstructionTextBox.ReadOnly = true;
+            this.InstructionTextBox.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
+            this.InstructionTextBox.Size = new System.Drawing.Size(240, 81);
+            this.InstructionTextBox.TabIndex = 40;
+            this.InstructionTextBox.Text = "";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(820, 580);
+            this.ClientSize = new System.Drawing.Size(820, 740);
+            this.Controls.Add(this.InstructionTextBox);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.FilterNumStock);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.FilteredProfit);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.ProfitFilter);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.WinRatioFilter);
+            this.Controls.Add(this.IsFilter);
+            this.Controls.Add(this.discardGrid);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.numStock);
             this.Controls.Add(this.label6);
@@ -300,6 +440,7 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Lv1PositionGrid)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numOfRetries)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.discardGrid)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -330,6 +471,18 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox numStock;
+        private System.Windows.Forms.DataGridView discardGrid;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.CheckBox IsFilter;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox ProfitFilter;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox WinRatioFilter;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox FilteredProfit;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TextBox FilterNumStock;
+        private System.Windows.Forms.RichTextBox InstructionTextBox;
     }
 }
 

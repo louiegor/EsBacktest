@@ -142,6 +142,26 @@ namespace WinFormData.Tests
 
         }
 
+        [Test]
+        public void TryParseTest()
+        {
+            double profitpercent =-1000;
+            var x = double.TryParse("AKB", out profitpercent);
+            Assert.NotNull(x);
+        }
+
+        [Test]
+        public void DictionaryTest()
+        {
+            var dict = new Dictionary<string, Ske>();
+            dict.Add("momota", new Ske{Age =21, Description = "kanakooooo", Team = "MCZ"});
+
+
+            var value = new Ske();
+            var temp = dict.TryGetValue("momota", out value);
+            Assert.NotNull(temp);
+            Assert.NotNull(value);
+        }
 
         [Test]
         public void CsvReadTest()
@@ -483,9 +503,17 @@ namespace WinFormData.Tests
         
     }
 
+    public class Ske
+    {
+        public string Team { get; set; }
+        public int Age { get; set; }
+        public string Description { get; set; }
+    }
+
     public class Akb
     {
         public string Name { get; set; }
+
     }
 
  

@@ -51,7 +51,8 @@ namespace WinFormData
             fw = scope.Resolve<IFileWatcher>();
             api = scope.Resolve<IXmlHelper>();
             model = scope.Resolve<IMainModel>();
-            
+            InstructionTextBox.Text =
+                    @"Instruction:  The output csv file should be in the following format (Symbol,Profit,Win Ratio,Current Price)";
         }
 
         public void UseRealXml(ContainerBuilder builder)
@@ -142,14 +143,43 @@ namespace WinFormData
             //This is the correct way of doing it
             //var result = new BindingList<TestResult>();
             //Lv1PositionGrid.DataSource = result;
-            Lv1PositionGrid.DataSource = CsvParser.GetDictionaryValues();
-            totalTextBox.Text = CsvParser.GetTotal().ToString(CultureInfo.InvariantCulture);
-            numStock.Text = CsvParser.GetDictCount().ToString(CultureInfo.InvariantCulture);
 
+            if (IsFilter.Checked)
+            {
+                double  winratio ;
+                double.TryParse(WinRatioFilter.Text, out winratio);
+                double profitpercent;
+                double.TryParse(ProfitFilter.Text, out profitpercent);
+
+                if (winratio>-0.1 && winratio <0.1) //winratio is 0
+                {
+                    winratio = -100;
+                }
+                if (profitpercent > -0.1 && profitpercent < 0.1) //profitpercent is 0
+                {
+                    profitpercent = -100;
+                }
+                
+                totalTextBox.Text = CsvParser.GetTotal().ToString(CultureInfo.InvariantCulture);
+                numStock.Text = CsvParser.GetDictCount().ToString(CultureInfo.InvariantCulture);
+                Lv1PositionGrid.DataSource = CsvParser.GetFilterDictionary(winratio, profitpercent);
+                discardGrid.DataSource = CsvParser.GetUnFilterDictionary(winratio, profitpercent);
+                FilteredProfit.Text = CsvParser.GetFilterProfit(winratio,profitpercent).ToString(CultureInfo.InvariantCulture);
+                FilterNumStock.Text = CsvParser.GetFilterTotalStocks(winratio, profitpercent).ToString(CultureInfo.InvariantCulture);
+                InstructionTextBox.Text =
+                    @"Instruction:  The output csv file should be in the following format (Symbol,Profit,Win Ratio,Current Price)";
+            }
+            else
+            {
+                Lv1PositionGrid.DataSource = CsvParser.GetDictionaryValues();
+                totalTextBox.Text = CsvParser.GetTotal().ToString(CultureInfo.InvariantCulture);
+                numStock.Text = CsvParser.GetDictCount().ToString(CultureInfo.InvariantCulture);
+            }
         }
 
         private void StartButton_Click(object sender, EventArgs e)
         {
+            DeleteAllFileInEsginalPath();
             SetText("Starting Esignal Backtest Watcher");
             Global.StopEntryTime = 90000; // Entry stop time
             Global.StopCheckInterval = 5000; //Entry stop check price interval
@@ -195,7 +225,7 @@ namespace WinFormData
         {
             fw.StopWatch();
             CsvParser.ClearDictionary();
-            DeleteAllFileInEsginalPath();
+            //DeleteAllFileInEsginalPath();
             startButton.Enabled = true;
             stopButton.Enabled = false;
         }
